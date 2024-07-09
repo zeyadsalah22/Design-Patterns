@@ -2,11 +2,11 @@
 
 ## Introduction
 
-Design patterns are typical solutions to common problems in software design. Each pattern is like a blueprint that you can customize to solve a particular design problem in your code. They are categorized into three groups:
+Design patterns are typical solutions to common problems in software design provided by object-oriented programming expert developers. Each pattern is like a blueprint that you can customize to solve a particular design problem in your code. They are categorized into three groups:
 
-1. **Creational Patterns**: Deal with object creation mechanisms.
-2. **Behavioral Patterns**: Deal with object interaction and responsibility.
-3. **Structural Patterns**: Deal with object composition or structure.
+1. **Creational Patterns**: Deal with object creation mechanisms. They help in making systemd independent of how its objects are created or represented.
+2. **Behavioral Patterns**: Deal with object interaction and responsibility. They define the patterns of communication between objects and act as control flow system.
+3. **Structural Patterns**: Deal with object composition or structure and concerened with how objects and classes are composed to form the larger structure.
 
 By using design patterns, you can make your code more flexible, reusable, and easier to understand.
 
@@ -18,6 +18,15 @@ Creational patterns provide various object creation mechanisms, which increase f
 
 1. **Singleton Pattern**
     - **Explanation**: Ensures that a class has only one instance and provides a global point of access to it.
+    - **Main Points**:
+         1- Should only be used when class must have single instance available.
+         2- Disable all means of creating objects of class except for special static creation method and it returns the existing instance if it is already created.
+         3- Its code need to be adapted to handle multiple threats
+         4- Initalization types: Early initialization, Lazy initialization.
+    - **Components**:
+         1- Static member
+         2- Private Constructor
+         3- Static factory method.
     - [Singleton Pattern Code](https://github.com/zeyadsalah22/Design-Patterns/blob/main/Creational%20Design%20Patterns/src/Singleton.java)
   
 2. **Factory Method Pattern**
