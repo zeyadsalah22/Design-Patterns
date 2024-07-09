@@ -18,11 +18,11 @@ Creational patterns provide various object creation mechanisms, which increase f
 
 1. **Singleton Pattern**
     - **Explanation**: Ensures that a class has only one instance and provides a global point of access to it.
-    - [Singleton Pattern Code](link-to-singleton-code)
+    - [Singleton Pattern Code](https://github.com/zeyadsalah22/Design-Patterns/blob/main/Creational%20Design%20Patterns/src/Singleton.java)
   
 2. **Factory Method Pattern**
     - **Explanation**: Defines an interface for creating an object, but allows subclasses to alter the type of objects that will be created.
-    - [Factory Method Pattern Code](link-to-factory-method-code)
+    - [Factory Method Pattern Code](https://github.com/zeyadsalah22/Design-Patterns/blob/main/Creational%20Design%20Patterns/src/Factory_method.java)
 
 3. **Abstract Factory Pattern**
     - **Explanation**: Provides an interface for creating families of related or dependent objects without specifying their concrete classes.
@@ -30,11 +30,11 @@ Creational patterns provide various object creation mechanisms, which increase f
 
 4. **Builder Pattern**
     - **Explanation**: Separates the construction of a complex object from its representation, allowing the same construction process to create different representations.
-    - [Builder Pattern Code](link-to-builder-pattern-code)
+    - [Builder Pattern Code](https://github.com/zeyadsalah22/Design-Patterns/blob/main/Creational%20Design%20Patterns/src/Builder.java)
 
 5. **Prototype Pattern**
     - **Explanation**: Specifies the kinds of objects to create using a prototypical instance, and create new objects by copying this prototype.
-    - [Prototype Pattern Code](link-to-prototype-pattern-code)
+    - [Prototype Pattern Code](https://github.com/zeyadsalah22/Design-Patterns/blob/main/Creational%20Design%20Patterns/src/Prototype.java)
 
 ### Behavioral Patterns
 
