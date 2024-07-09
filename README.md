@@ -26,7 +26,7 @@ Creational patterns provide various object creation mechanisms, which increase f
 
 3. **Abstract Factory Pattern**
     - **Explanation**: Provides an interface for creating families of related or dependent objects without specifying their concrete classes.
-    - [Abstract Factory Pattern Code](link-to-abstract-factory-code)
+    - [Abstract Factory Pattern Code](https://github.com/zeyadsalah22/Design-Patterns/blob/main/Creational%20Design%20Patterns/src/Abstract_Factory.java)
 
 4. **Builder Pattern**
     - **Explanation**: Separates the construction of a complex object from its representation, allowing the same construction process to create different representations.
