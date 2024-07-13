@@ -1,17 +1,17 @@
 public class Chain_responsibility {
     public interface Handler {
         void setNextHandler(Handler next_handler);
-        void execute(int severity);
+        void handle(int severity);
     }
 
     public class Handler1 implements Handler {
         private Handler next_handler = null;
 
-        public void execute(int severity) {
+        public void handle(int severity) {
             if (severity == 1)
                 System.out.println("first handler handled it");
             else if (next_handler != null)
-                next_handler.execute(severity);
+                next_handler.handle(severity);
             else
                 System.out.println("Can't be handled");
         }
@@ -25,11 +25,11 @@ public class Chain_responsibility {
     public class Handler2 implements Handler {
         private Handler next_handler = null;
 
-        public void execute(int severity) {
+        public void handle(int severity) {
             if (severity == 2)
                 System.out.println("second handler handled it");
             else if (next_handler != null)
-                next_handler.execute(severity);
+                next_handler.handle(severity);
             else
                 System.out.println("Can't be handled");
         }
@@ -43,11 +43,11 @@ public class Chain_responsibility {
     public class Handler3 implements Handler {
         private Handler next_handler = null;
 
-        public void execute(int severity) {
+        public void handle(int severity) {
             if (severity == 3)
                 System.out.println("third handler handled it");
             else if (next_handler != null)
-                next_handler.execute(severity);
+                next_handler.handle(severity);
             else
                 System.out.println("Can't be handled");
         }
@@ -70,15 +70,15 @@ public class Chain_responsibility {
 
         // Testing various severity levels
         System.out.println("Test severity level 1:");
-        handler1.execute(1);  // Expected: "first handler handled it"
+        handler1.handle(1);  // Expected: "first handler handled it"
 
         System.out.println("Test severity level 2:");
-        handler1.execute(2);  // Expected: "second handler handled it"
+        handler1.handle(2);  // Expected: "second handler handled it"
 
         System.out.println("Test severity level 3:");
-        handler1.execute(3);  // Expected: "third handler handled it"
+        handler1.handle(3);  // Expected: "third handler handled it"
 
         System.out.println("Test severity level 4:");
-        handler1.execute(4);  // Expected: "Can't be handled"
+        handler1.handle(4);  // Expected: "Can't be handled"
     }
 }
