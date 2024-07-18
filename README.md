@@ -101,7 +101,7 @@ Behavioral patterns are concerned with algorithms and the assignment of responsi
       - Handler Interface or abstract class
       - Concrete Handler
       - Client
-    - [Chain of Responsibility Pattern Code](link-to-chain-of-responsibility-pattern-code)
+    - [Chain of Responsibility Pattern Code](https://github.com/zeyadsalah22/Design-Patterns/blob/main/Behavioral%20Design%20Patterns/src/Chain_responsibility.java)
     
 2. **Command Pattern**
     - **Explanation**: Encapsulates a request as an object, thereby allowing users to parameterize clients with queues, requests, and operations.
@@ -118,7 +118,7 @@ Behavioral patterns are concerned with algorithms and the assignment of responsi
       - Invoker
       - Receiver
       
-    - [Command Pattern Code](link-to-command-pattern-code)
+    - [Command Pattern Code](https://github.com/zeyadsalah22/Design-Patterns/blob/main/Behavioral%20Design%20Patterns/src/Command_pattern.java)
     
 3. **Interpreter Pattern**
     - **Explanation**: Given a language, defines a representation for its grammar along with an interpreter that uses the representation to interpret sentences in the language.
@@ -138,7 +138,7 @@ Behavioral patterns are concerned with algorithms and the assignment of responsi
       - Iterable Collection Interface
       - Concrete Collection
       - Client
-    - [Iterator Pattern Code](link-to-iterator-pattern-code)
+    - [Iterator Pattern Code](https://github.com/zeyadsalah22/Design-Patterns/blob/main/Behavioral%20Design%20Patterns/src/Iterator_pattern.java)
     
 5. **Mediator Pattern**
     - **Explanation**: Defines an object that encapsulates how a set of objects interact. This pattern promotes loose coupling by keeping objects from referring to each other explicitly.
@@ -151,7 +151,7 @@ Behavioral patterns are concerned with algorithms and the assignment of responsi
       - Concrete Mediator
       - Component
       - Concrete Component
-    - [Mediator Pattern Code](link-to-mediator-pattern-code)
+    - [Mediator Pattern Code](https://github.com/zeyadsalah22/Design-Patterns/blob/main/Behavioral%20Design%20Patterns/src/Mediator.java)
     
 6. **Memento Pattern**
     - **Explanation**: Allows the state of an object to be captured and restored at a later time, without violating encapsulation.
@@ -164,7 +164,7 @@ Behavioral patterns are concerned with algorithms and the assignment of responsi
       - Memento
       - Care Taker
       - Client
-    - [Memento Pattern Code](link-to-memento-pattern-code)
+    - [Memento Pattern Code](https://github.com/zeyadsalah22/Design-Patterns/blob/main/Behavioral%20Design%20Patterns/src/Memento.java)
     
 7. **Observer Pattern**
     - **Explanation**: Defines a one-to-many dependency between objects so that when one object changes state, all its dependents are notified and updated automatically.
@@ -178,7 +178,7 @@ Behavioral patterns are concerned with algorithms and the assignment of responsi
       - Concrete Subject
       - Observer
       - Concrete Observer
-    - [Observer Pattern Code](link-to-observer-pattern-code)
+    - [Observer Pattern Code](https://github.com/zeyadsalah22/Design-Patterns/blob/main/Behavioral%20Design%20Patterns/src/Observer_pattern.java)
     
 8. **State Pattern**
     - **Explanation**: Allows an object to alter its behavior when its internal state changes. The object will appear to change its class.
@@ -190,7 +190,7 @@ Behavioral patterns are concerned with algorithms and the assignment of responsi
       - Context
       - State Interface or base class
       - Concrete States
-    - [State Pattern Code](link-to-state-pattern-code)
+    - [State Pattern Code](https://github.com/zeyadsalah22/Design-Patterns/blob/main/Behavioral%20Design%20Patterns/src/state_pattern.java)
     
 9. **Strategy Pattern**
     - **Explanation**: Defines a family of algorithms, encapsulates each one, and makes them interchangeable. This pattern lets the algorithm vary independently from the clients that use it.
@@ -204,7 +204,7 @@ Behavioral patterns are concerned with algorithms and the assignment of responsi
       - Strategy Interface
       - Concrete Strategies
       - Client
-    - [Strategy Pattern Code](link-to-strategy-pattern-code)
+    - [Strategy Pattern Code](https://github.com/zeyadsalah22/Design-Patterns/blob/main/Behavioral%20Design%20Patterns/src/Strategy_pattern.java)
 
 ## State vs Strategy Patterns
 
@@ -226,7 +226,7 @@ Behavioral patterns are concerned with algorithms and the assignment of responsi
       - Template Method
       - Abstract Methods
       - Concrete Subclasses
-    - [Template Method Code](link-to-template-method-code)
+    - [Template Method Code](https://github.com/zeyadsalah22/Design-Patterns/blob/main/Behavioral%20Design%20Patterns/src/Template_pattern.java)
     
 11. **Visitor Pattern**
     - **Explanation**: Lets you define a new operation without changing the classes of the elements on which it operates.
@@ -241,7 +241,7 @@ Behavioral patterns are concerned with algorithms and the assignment of responsi
       - Concrete Visitors
       - Visitable Interface
       - Concrete Visitable
-    - [Visitor Pattern Code](link-to-visitor-pattern-code)
+    - [Visitor Pattern Code](https://github.com/zeyadsalah22/Design-Patterns/blob/main/Behavioral%20Design%20Patterns/src/Visitor_pattern.java)
 
 ### Structural Patterns
 
