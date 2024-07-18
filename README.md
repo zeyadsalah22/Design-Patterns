@@ -7,7 +7,7 @@ Design patterns are typical solutions to common problems in software design prov
 1. **Creational Patterns**: Deal with object creation mechanisms. They help in making systems independent of how their objects are created or represented.
 2. **Behavioral Patterns**: Deal with object interaction and responsibility. They define the patterns of communication between objects and act as control flow systems.
 3. **Structural Patterns**: Deal with object composition or structure and are concerned with how objects and classes are composed to form larger structures.
-
+****
 By using design patterns, you can make your code more flexible, reusable, and easier to understand.
 
 ## Classification of Design Patterns
@@ -93,13 +93,31 @@ Behavioral patterns are concerned with algorithms and the assignment of responsi
 1. **Chain of Responsibility Pattern**
     - **Explanation**: Lets you pass requests along a chain of handlers. Upon receiving a request, each handler decides either to process the request or to pass it to the next handler in the chain.
     - **Main Points**: 
+      - Use when you encounter the need to execute several handlers in particular order.
+      - Allows you to insert, remove or reorder handlers automatically.
+      - Each handler must either process the request or pass it along the chain.
+      - Client might trigger any handler in the chain, not only the first.
     - **Components**:
+      - Handler Interface or abstract class
+      - Concrete Handler
+      - Client
     - [Chain of Responsibility Pattern Code](link-to-chain-of-responsibility-pattern-code)
     
 2. **Command Pattern**
     - **Explanation**: Encapsulates a request as an object, thereby allowing users to parameterize clients with queues, requests, and operations.
-    - **Main Points**: 
+    - **Main Points**:
+      - Turns a request or behavior to a stand-alone object that contains everything about the request. 
+      - Encapsulates all the relevant information needed to perform an action or trigger a request.
+      - Interesting uses:
+        - Passing commands as method arguments
+        - Storing them inside other objects or even switching commands at runtime.
+      - Commands can vbe serialized, making it easy to write it into or read it from a file.
     - **Components**:
+      - Command Interface
+      - Concrete Command
+      - Invoker
+      - Receiver
+      
     - [Command Pattern Code](link-to-command-pattern-code)
     
 3. **Interpreter Pattern**
@@ -111,49 +129,118 @@ Behavioral patterns are concerned with algorithms and the assignment of responsi
 4. **Iterator Pattern**
     - **Explanation**: Provides a way to access the elements of an aggregate object sequentially without exposing its underlying representation.
     - **Main Points**: 
+      - Reduces traversal code duplication
+      - Applies single responsibility and open-closed principles, each iteration algorithm is extracted in separate class and new iterators can be added with modifying existing ones.
+      - Encapsulates the details of complex data structures by exposing simple methods to access the collection elements.
     - **Components**:
+      - Iterator Interface
+      - Concrete Iterator
+      - Iterable Collection Interface
+      - Concrete Collection
+      - Client
     - [Iterator Pattern Code](link-to-iterator-pattern-code)
     
 5. **Mediator Pattern**
     - **Explanation**: Defines an object that encapsulates how a set of objects interact. This pattern promotes loose coupling by keeping objects from referring to each other explicitly.
     - **Main Points**: 
+      - Extract all relationships between classes into a separate class.
+      - Allows to reuse any component in a different app, making it easy to define new ways of communication between components by introducing new mediator class.
+      - Classes will be decoupled from one another as they will communicate directly vie mediator.
     - **Components**:
+      - Mediator
+      - Concrete Mediator
+      - Component
+      - Concrete Component
     - [Mediator Pattern Code](link-to-mediator-pattern-code)
     
 6. **Memento Pattern**
     - **Explanation**: Allows the state of an object to be captured and restored at a later time, without violating encapsulation.
-    - **Main Points**: 
+    - **Main Points**:
+      - Lets you save and reuse the states of an object without revealing the details of its implementations, to do that this pattern makes full copies of object's states.
+      - Makes the original object's data safe and secure.
+      - Delegates the creation of object's state snapshot to the object itself.
     - **Components**:
+      - Originator
+      - Memento
+      - Care Taker
+      - Client
     - [Memento Pattern Code](link-to-memento-pattern-code)
     
 7. **Observer Pattern**
     - **Explanation**: Defines a one-to-many dependency between objects so that when one object changes state, all its dependents are notified and updated automatically.
     - **Main Points**: 
+      - Allows to change or take action on set of objects when the state of another object changes.
+      - This can be done even if the modifiable set of objects are unknown beforehand ir changes dynamically.
+      - You can introduce new subscriber classes without having to change the publisher code ,and vice versa if there is publisher interface.
+      - Primarily deals with interaction and communication between objects, specifically focuses on how objects behave in response to changes in state of another object. 
     - **Components**:
+      - Subject
+      - Concrete Subject
+      - Observer
+      - Concrete Observer
     - [Observer Pattern Code](link-to-observer-pattern-code)
     
 8. **State Pattern**
     - **Explanation**: Allows an object to alter its behavior when its internal state changes. The object will appear to change its class.
     - **Main Points**: 
+      - Extract each logic to separate class and let the context delegate the behavior to the corresponding stata class
+      - Applies single responsibility and open-closed principle where each state is organized in separate class and we can introduce new states.
+      - Focuses on managing state transitions and coordinating state-specific behavior.
     - **Components**:
+      - Context
+      - State Interface or base class
+      - Concrete States
     - [State Pattern Code](link-to-state-pattern-code)
     
 9. **Strategy Pattern**
     - **Explanation**: Defines a family of algorithms, encapsulates each one, and makes them interchangeable. This pattern lets the algorithm vary independently from the clients that use it.
-    - **Main Points**: 
+    - **Main Points**:
+      - Strategies are easily replaceable and interchangeable by clients at runtime.
+      - Applies single responsibility and open-closed principles, where each strategy is isolated in separate class and we can easily add new ones.
+      - One of the gang of four(GOF).
+      - Promotes object collaboration.
     - **Components**:
+      - Context
+      - Strategy Interface
+      - Concrete Strategies
+      - Client
     - [Strategy Pattern Code](link-to-strategy-pattern-code)
+
+## State vs Strategy Patterns
+
+| State Pattern                                                             | Strategy Pattern                                                       |
+|---------------------------------------------------------------------------|------------------------------------------------------------------------|
+| States can be dependant as you can easily jump from one state to another. | Strategies are completely independant and unaware of each other.       |
+| About doing different things based on the state, hence result may vary.   | About having different implementations that accomplish the same thing. |
+
     
 10. **Template Method Pattern**
     - **Explanation**: Defines the skeleton of an algorithm in a method, deferring some steps to subclasses. This pattern lets subclasses redefine certain steps of an algorithm without changing the algorithm's structure.
     - **Main Points**: 
+      - Turns an algorithm into a series of individual methods.
+      - Keep the structure of your base algorithm intact.
+      - Eliminates code duplication by pulling up the steps with same implementations into the superclass housing the template method.
+      - The code that varies is split between different implementations.
     - **Components**:
+      - Abstract Class
+      - Template Method
+      - Abstract Methods
+      - Concrete Subclasses
     - [Template Method Code](link-to-template-method-code)
     
 11. **Visitor Pattern**
     - **Explanation**: Lets you define a new operation without changing the classes of the elements on which it operates.
     - **Main Points**: 
+      - Isolates particular behaviors from the objects on which they operate, and places them in a single class.
+      - Classes will be more focused on their main job hence enforcing single responsibility principle.
+      - Applies open-closed principle as new visiting behaviors can be easily introduced without modifying the existing ones.
+      - Visitors are easily interchangeable by clients at runtime.
     - **Components**:
+      - Client
+      - Visitor Interface
+      - Concrete Visitors
+      - Visitable Interface
+      - Concrete Visitable
     - [Visitor Pattern Code](link-to-visitor-pattern-code)
 
 ### Structural Patterns
