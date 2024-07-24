@@ -28,7 +28,9 @@ Creational patterns provide various object creation mechanisms, which increase f
          - Private constructor
          - Static factory method
     - [Singleton Pattern Code](https://github.com/zeyadsalah22/Design-Patterns/blob/main/Creational%20Design%20Patterns/src/Singleton.java)
-  
+    - ![Singleton Pattern](https://github.com/zeyadsalah22/Design-Patterns/blob/main/images/creational/singleton.png)
+
+
 2. **Factory Method Pattern**
     - **Explanation**: Defines an interface for creating an object, but allows subclasses to alter the type of objects that will be created.
     - **Main Points**:
