@@ -102,6 +102,7 @@ public class Interpreter_pattern {
 
         // Method to build the expression tree from a string expression
         public Expression buildExpressionTree(String expression) {
+            // Using hardcoded tree for simplicity
             return new SubtractionExpression(
                     new AdditionExpression(
                             new NumberExpression(3),
@@ -125,7 +126,6 @@ public class Interpreter_pattern {
         Interpreter interpreter = interpreterPattern.new Interpreter(context);
 
         String expression = "3 + 5 * 2 - 4 / 2";
-        // Temporarily using hardcoded tree for testing purposes
 
 
         double result = interpreter.interpret(expression);

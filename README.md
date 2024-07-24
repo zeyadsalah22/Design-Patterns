@@ -33,9 +33,9 @@ Creational patterns provide various object creation mechanisms, which increase f
     - **Explanation**: Defines an interface for creating an object, but allows subclasses to alter the type of objects that will be created.
     - **Main Points**:
          - Use it if you have no idea the exact types of the object your code will work with.
-         - Mkaes it easy to extend the poroduct construction code independently from the rest of the application.
+         - Makes it easy to extend the product construction code independently from the rest of the application.
          - Allow introducing new products without breaking existing code.
-         - Cnetralizes the product creation code in one place in program.
+         - Centralizes the product creation code in one place in program.
     - **Components**:
          - Creator
          - Concrete Creator
@@ -47,7 +47,7 @@ Creational patterns provide various object creation mechanisms, which increase f
     - **Explanation**: Provides an interface for creating families of related or dependent objects without specifying their concrete classes.
     - **Main Points**:
          - Use it when your code needs to work with various families of related products.
-         - Many designs start with the factory pattern and then evolve to th ABstract factory pattern.
+         - Many designs start with the factory pattern and then evolve to th Abstract factory pattern.
          - Follows the open_closed and single responsibility principles.
          - Centralizes the product creation code in one place in the program.
     - **Components**:
@@ -61,8 +61,8 @@ Creational patterns provide various object creation mechanisms, which increase f
 4. **Builder Pattern**
     - **Explanation**: Separates the construction of a complex object from its representation, allowing the same construction process to create different representations.
     - **Main Points**:
-         - Create builder class containning same fields of the object you need to be created.
-         - Add several setters for theses fields and a 'build' method responsible for creating the object.
+         - Create builder class containing same fields of the object you need to be created.
+         - Add several setters for these fields and a 'build' method responsible for creating the object.
          - Think about creating a director if the same creation code is used to create several objects.
     - **Components**:
          - Product
@@ -123,8 +123,17 @@ Behavioral patterns are concerned with algorithms and the assignment of responsi
 3. **Interpreter Pattern**
     - **Explanation**: Given a language, defines a representation for its grammar along with an interpreter that uses the representation to interpret sentences in the language.
     - **Main Points**: 
+      - Defines a way to interpret and evaluate language grammar or expressions.
+      - Provides mechanism for evaluating sentences by representing grammar as set of classes.
+      - Involves defining hierarchies of expression classes, both terminal and non-terminal, tree structures are similar to composite pattern.
     - **Components**:
-    - [Interpreter Pattern Code](link-to-interpreter-pattern-code)
+      - Abstract Expression
+      - Terminal Expression
+      - Non-terminal Expression
+      - Context
+      - Client
+      - Interpreter
+    - [Interpreter Pattern Code](https://github.com/zeyadsalah22/Design-Patterns/blob/main/Behavioral%20Design%20Patterns/src/Interpreter_pattern.java)
     
 4. **Iterator Pattern**
     - **Explanation**: Provides a way to access the elements of an aggregate object sequentially without exposing its underlying representation.
@@ -193,10 +202,10 @@ Behavioral patterns are concerned with algorithms and the assignment of responsi
     - [State Pattern Code](https://github.com/zeyadsalah22/Design-Patterns/blob/main/Behavioral%20Design%20Patterns/src/state_pattern.java)
     
 9. **Strategy Pattern**
-    - **Explanation**: Defines a family of algorithms, encapsulates each one, and makes them interchangeable. This pattern lets the algorithm vary independently from the clients that use it.
+    - **Explanation**: Defines a family of algorithms, encapsulates each one, and makes them interchangeable. This pattern lets the algorithm vary independently of the clients that use it.
     - **Main Points**:
       - Strategies are easily replaceable and interchangeable by clients at runtime.
-      - Applies single responsibility and open-closed principles, where each strategy is isolated in separate class and we can easily add new ones.
+      - Applies single responsibility and open-closed principles, where each strategy is isolated in separate class, and we can easily add new ones.
       - One of the gang of four(GOF).
       - Promotes object collaboration.
     - **Components**:
@@ -210,7 +219,7 @@ Behavioral patterns are concerned with algorithms and the assignment of responsi
 
 | State Pattern                                                             | Strategy Pattern                                                       |
 |---------------------------------------------------------------------------|------------------------------------------------------------------------|
-| States can be dependant as you can easily jump from one state to another. | Strategies are completely independant and unaware of each other.       |
+| States can be dependant as you can easily jump from one state to another. | Strategies are completely independent and unaware of each other.       |
 | About doing different things based on the state, hence result may vary.   | About having different implementations that accomplish the same thing. |
 
     
@@ -250,38 +259,99 @@ Structural patterns explain how to assemble objects and classes into larger stru
 1. **Adapter Pattern**
     - **Explanation**: Allows objects with incompatible interfaces to collaborate.
     - **Main Points**: 
+      - Uses inheritance and composition to enable objects with incompatible interfaces collaborate with one another.
+      - Creates middle layer class that serves as translator.
+      - Applies Single Responsibility and Open-Closed principles, adapting behavior is separated, we can introduce new adapters without breaking existing code.
     - **Components**:
-    - [Adapter Pattern Code](link-to-adapter-pattern-code)
-    
-2. **Composite Pattern**
+      - Target Interface
+      - Adaptee
+      - Adapter
+      - Client
+    - [Adapter Pattern Code](https://github.com/zeyadsalah22/Design-Patterns/blob/main/Structural%20Design%20Patterns/src/adapter_pattern.java)
+2. **Bridge Pattern**
+   - **Explanation**: Splits large class into two separate hierarchies which can be developed independently.
+   - **Main Points**:
+     - The two hierarchies are: Abstraction, Implementation.
+     - Abstraction is a high-level control layer, it delegates the work to implementation layer( They are different from interfaces and abstract classes).
+     - Composition over inheritance.
+     - Client code won't be exposed to implementation details.
+     - Applies Single Responsibility and Open-Closed principles, independently introduce new abstractions and implementations.
+   - **Components**:
+      - Abstraction
+      - Refined Abstraction
+      - Implementer
+      - Concrete Implementation
+   - [Bridge Pattern Code](https://github.com/zeyadsalah22/Design-Patterns/blob/main/Structural%20Design%20Patterns/src/bridge_pattern.java)
+3. **Composite Pattern**
     - **Explanation**: Composes objects into tree structures to represent part-whole hierarchies. Allows individual objects and compositions to be treated uniformly.
     - **Main Points**: 
+      - All elements share the same interface allowing client to treat individual objects and compositions uniformly.
+      - Help you create a tree-like object structure using simple and complex objects.
+      - Applies open-closed principle, you can introduce new element types in the application without breaking the existing code.
     - **Components**:
-    - [Composite Pattern Code](link-to-composite-pattern-code)
+      - Component Interface
+      - Leaf
+      - Composite
+      - Client
+    - [Composite Pattern Code](https://github.com/zeyadsalah22/Design-Patterns/blob/main/Structural%20Design%20Patterns/src/Composite_pattern.java)
     
 3. **Decorator Pattern**
     - **Explanation**: Allows behavior to be added to an individual object, dynamically, without affecting the behavior of other objects from the same class.
     - **Main Points**: 
+      - Wraps an existing object, allowing to add new functionality dynamically to that object without altering its structure.
+      - Assign extra behaviors to your object at runtime without breaking the code that use it.
+      - Applies Single Responsibility and Open-Closed principles, each behavior is isolated in separate class, you can introduce new decorators without modifying existing classes.
     - **Components**:
-    - [Decorator Pattern Code](link-to-decorator-pattern-code)
+      - Component Interface or abstract class
+      - Concrete Component
+      - Decorator (abstract class)
+      - Concrete Decorator
+    - [Decorator Pattern Code](https://github.com/zeyadsalah22/Design-Patterns/blob/main/Structural%20Design%20Patterns/src/Decorator_pattern.java)
     
 4. **Facade Pattern**
     - **Explanation**: Provides a simplified interface to a complex subsystem.
     - **Main Points**: 
+      - A class that serves as a front-facing interface that masks complex underlying structural code.
+      - Improves readability and usability of a software library by hiding the interaction with its components.
+      - Applies Single Responsibility principle by defining entry points to each level of a subsystem thus decoupling multiple subsystems and forcing them to communicate only through facades.
+      - Part of Gang of Four(GOF).
+      - You can add additional facades to avoid growing a facade.
     - **Components**:
-    - [Facade Pattern Code](link-to-facade-pattern-code)
+      - Facade
+      - Subsystem Classes
+      - Client
+      - Additional Facade (if needed )
+    - [Facade Pattern Code](https://github.com/zeyadsalah22/Design-Patterns/blob/main/Structural%20Design%20Patterns/src/Facade_pattern.java)
     
 5. **Flyweight Pattern**
     - **Explanation**: Reduces the cost of creating and manipulating a large number of similar objects.
     - **Main Points**: 
+      - For memory optimization.
+      - Refers to an object that minimizes memory usage by sharing some of the initial object's data with other similar objects.
+      - Should only be used when a program must support a huge number of similar objects which barely fit into the available amount of RAM.
+      - Splits state if the initial object into two intrinsic immutable state and extrinsic mutable stata.
     - **Components**:
-    - [Flyweight Pattern Code](link-to-flyweight-pattern-code)
+      - Context
+      - Flyweight Interface/Abstract
+      - Concrete Flyweight
+      - Flyweight Factory
+      - Client
+    - [Flyweight Pattern Code](https://github.com/zeyadsalah22/Design-Patterns/blob/main/Structural%20Design%20Patterns/src/FlyWeight_pattern.java)
     
 6. **Proxy Pattern**
     - **Explanation**: Provides a surrogate or placeholder for another object to control access to it.
     - **Main Points**: 
+      - Allows to control access to a particular object by performing something before or after the request reaches that object.
+      - The proxy must implement the same interface of the original object.
+      - Manages the life cycle of the service object, and the proxy will work even if the service object isn't ready or available.
+      - Applies open-closed principle, as you can introduce new proxies without changing the service nor the clients.
+      - Chaining of proxies means connecting them in a sequence, where each proxy adds its own behavior before passing the request to the next proxy.
     - **Components**:
-    - [Proxy Pattern Code](link-to-proxy-pattern-code)
+      - Subject
+      - RealSubject
+      - Proxy
+      - Client
+    - [Proxy Pattern Code(Chained proxies)](https://github.com/zeyadsalah22/Design-Patterns/blob/main/Structural%20Design%20Patterns/src/Proxy_pattern.java)
 
 ## References
 
