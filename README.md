@@ -193,7 +193,7 @@ Behavioral patterns are concerned with algorithms and the assignment of responsi
       - Client
    - [Memento Pattern Code](https://github.com/zeyadsalah22/Design-Patterns/blob/main/Behavioral%20Design%20Patterns/src/Memento.java)
    - Class Diagram
-     <img src="https://github.com/zeyadsalah22/Design-Patterns/blob/main/images/behavioral/mementopng" width="400"/>
+     <img src="https://github.com/zeyadsalah22/Design-Patterns/blob/main/images/behavioral/memento.png" width="400"/>
 
 7. **Observer Pattern**
    - **Explanation**: Defines a one-to-many dependency between objects so that when one object changes state, all its dependents are notified and updated automatically.
