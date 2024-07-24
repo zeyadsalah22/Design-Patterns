@@ -406,7 +406,14 @@ By using design patterns, you can make your code more flexible, reusable, and ea
 - Class Diagram
   <img src="https://github.com/zeyadsalah22/Design-Patterns/blob/main/images/structural/proxy.png" width="400"/>
 
-## References
+## Resources
 
 1. [GeeksforGeeks - Software Design Patterns](https://www.geeksforgeeks.org/software-design-patterns/)
 2. [YouTube Playlist - Design Patterns](https://youtube.com/playlist?list=PLlsmxlJgn1HJpa28yHzkBmUY-Ty71ZUGc&si=-O4aAbHaeI5LxWLA)
+3. [GeeksforGeeks - Interview Questions](https://www.geeksforgeeks.org/top-design-patterns-interview-questions/)
+4. [Interviewbit - Interview Questions](https://www.interviewbit.com/design-patterns-interview-questions/)
+5. [Tutorialspoint - Interview Questions](https://www.tutorialspoint.com/design_pattern/design_pattern_questions_answers.htm)
+6. [Scholarhat - Interview Questions(.Net)](https://www.scholarhat.com/tutorial/designpatterns/dotnet-design-patterns-interview-questions-and-answers)
+7. [Bytehide - Interview Questions(C#)](https://www.bytehide.com/blog/csharp-design-patterns-interview-questions-experienced)
+8. [Tutorialspoint - MCQ Quiz](https://www.tutorialspoint.com/design_pattern/design_pattern_online_quiz.htm)
+8. [Sanfoundry - MCQ Questions](https://www.sanfoundry.com/software-engg-mcqs-software-design-pattern/)
