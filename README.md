@@ -28,7 +28,8 @@ Creational patterns provide various object creation mechanisms, which increase f
          - Private constructor
          - Static factory method
     - [Singleton Pattern Code](https://github.com/zeyadsalah22/Design-Patterns/blob/main/Creational%20Design%20Patterns/src/Singleton.java)
-    - <img src="https://github.com/zeyadsalah22/Design-Patterns/blob/main/images/creational/singleton.png" width="400"/>
+    - Class Diagram
+   <img src="https://github.com/zeyadsalah22/Design-Patterns/blob/main/images/creational/singleton.png" width="400"/>
 
 
 2. **Factory Method Pattern**
