@@ -215,7 +215,7 @@ Behavioral patterns are concerned with algorithms and the assignment of responsi
       - Client
     - [Strategy Pattern Code](https://github.com/zeyadsalah22/Design-Patterns/blob/main/Behavioral%20Design%20Patterns/src/Strategy_pattern.java)
 
-## State vs Strategy Patterns
+#### State vs Strategy Patterns
 
 | State Pattern                                                             | Strategy Pattern                                                       |
 |---------------------------------------------------------------------------|------------------------------------------------------------------------|
