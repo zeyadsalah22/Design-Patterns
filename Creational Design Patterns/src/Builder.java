@@ -7,12 +7,20 @@ public class Builder {
         private String color;
         private int doors;
 
-        // Private constructor to prevent direct instantiation
-        private Car(CarBuilder builder) {
-            this.brand = builder.brand;
-            this.model = builder.model;
-            this.color = builder.color;
-            this.doors = builder.doors;
+        public void setBrand(String brand) {
+            this.brand = brand;
+        }
+
+        public void setModel(String model) {
+            this.model = model;
+        }
+
+        public void setColor(String color) {
+            this.color = color;
+        }
+
+        public void setDoors(int doors) {
+            this.doors = doors;
         }
 
         @Override
@@ -32,34 +40,31 @@ public class Builder {
 
     // Concrete Builder class
     public class CarBuilder implements Builderr {
-        private String brand;
-        private String model;
-        private String color;
-        private int doors;
+        Car car = new Car();
 
         @Override
         public void brand(String brand) {
-            this.brand = brand;
+            car.setBrand(brand);
         }
 
         @Override
         public void model(String model) {
-            this.model = model;
+            car.setModel(model);
         }
 
         @Override
         public void color(String color) {
-            this.color = color;
+            car.setColor(color);
         }
 
         @Override
         public void doors(int doors) {
-            this.doors = doors;
+            car.setDoors(doors);
         }
 
         @Override
         public Car build() {
-            return new Car(this);
+            return this.car;
         }
     }
 
