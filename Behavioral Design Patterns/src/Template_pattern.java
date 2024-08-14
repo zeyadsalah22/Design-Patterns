@@ -46,7 +46,7 @@ public class Template_pattern {
 
         @Override
         public void AddCondiments() {
-            System.out.println("Adding sugar");
+            System.out.println("Adding sugar and Milk");
         }
     }
 

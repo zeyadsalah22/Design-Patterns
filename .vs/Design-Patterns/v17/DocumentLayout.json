@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Lenovo\\OneDrive - Egypt Japan University Of Science and Technology (E-JUST)\\Desktop\\Career\\Design Patterns\\Design-Patterns\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{98442404-E578-4E90-A85B-15AAFE016073}|Creational Design Patterns (C#)\\Creational Design Patterns (C#).csproj|c:\\users\\lenovo\\onedrive - egypt japan university of science and technology (e-just)\\desktop\\career\\design patterns\\design-patterns\\creational design patterns (c#)\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98442404-E578-4E90-A85B-15AAFE016073}|Creational Design Patterns (C#)\\Creational Design Patterns (C#).csproj|solutionrelative:creational design patterns (c#)\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\OneDrive - Egypt Japan University Of Science and Technology (E-JUST)\\Desktop\\Career\\Design Patterns\\Design-Patterns\\Creational Design Patterns (C#)\\Program.cs",
+              "RelativeDocumentMoniker": "Creational Design Patterns (C#)\\Program.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\OneDrive - Egypt Japan University Of Science and Technology (E-JUST)\\Desktop\\Career\\Design Patterns\\Design-Patterns\\Creational Design Patterns (C#)\\Program.cs",
+              "RelativeToolTip": "Creational Design Patterns (C#)\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T09:29:43.747Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

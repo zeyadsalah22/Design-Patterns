@@ -4,6 +4,7 @@ public class state_pattern {
     public class Phone {
         private State state;
 
+        public Phone(){}
         public Phone(State state) {
             this.state = state;
         }
@@ -105,7 +106,8 @@ public class state_pattern {
     // Main function for testing
     public static void main(String[] args) {
         state_pattern sp = new state_pattern();
-        Phone phone = sp.new Phone(sp.new OffState(sp.new Phone(null)));
+        Phone phone = sp.new Phone();
+        phone.setState(sp.new OffState(phone));
 
         System.out.println("Turning phone on (from off to lock):");
         phone.pressHomeButton(); // Expect: On lock screen

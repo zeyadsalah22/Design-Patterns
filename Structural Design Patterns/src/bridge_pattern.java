@@ -1,4 +1,5 @@
 public class bridge_pattern {
+
     // Abstraction: Pizza
     public abstract class Pizza {
         protected ItalianWay italianWay; // Implementation 1
@@ -20,8 +21,19 @@ public class bridge_pattern {
 
         @Override
         void Make() {
-            italianWay.make("Chicken Pizza");
-            mexicanWay.make("Chicken Pizza");
+            System.out.println("Making Chicken Pizza the Italian way");
+            italianWay.prepareDough("Chicken Pizza");
+            italianWay.addSauce("Chicken Pizza");
+            italianWay.addToppings("Chicken Pizza");
+            italianWay.bake("Chicken Pizza");
+            System.out.println("Chicken Pizza is ready");
+
+            System.out.println("Making Chicken Pizza the Mexican way");
+            mexicanWay.prepareDough("Chicken Pizza");
+            mexicanWay.addSauce("Chicken Pizza");
+            mexicanWay.addToppings("Chicken Pizza");
+            mexicanWay.bake("Chicken Pizza");
+            System.out.println("Chicken Pizza is ready");
         }
     }
 
@@ -33,29 +45,73 @@ public class bridge_pattern {
 
         @Override
         void Make() {
-            italianWay.make("Pepperoni Pizza");
-            mexicanWay.make("Pepperoni Pizza");
+            System.out.println("Making Pepperoni Pizza the Italian way");
+            italianWay.prepareDough("Pepperoni Pizza");
+            italianWay.addSauce("Pepperoni Pizza");
+            italianWay.addToppings("Pepperoni Pizza");
+            italianWay.bake("Pepperoni Pizza");
+            System.out.println("Pepperoni Pizza is ready");
+
+            System.out.println("Making Pepperoni Pizza the Mexican way");
+            mexicanWay.prepareDough("Pepperoni Pizza");
+            mexicanWay.addSauce("Pepperoni Pizza");
+            mexicanWay.addToppings("Pepperoni Pizza");
+            mexicanWay.bake("Pepperoni Pizza");
+            System.out.println("Pepperoni Pizza is ready");
         }
     }
 
     // Implementor interface: PizzaWay
     public interface PizzaWay {
-        void make(String type); // Method to be implemented by concrete implementors
+        void prepareDough(String type);
+        void addSauce(String type);
+        void addToppings(String type);
+        void bake(String type);
     }
 
     // Concrete Implementor: ItalianWay
     public class ItalianWay implements PizzaWay {
         @Override
-        public void make(String type) {
-            System.out.println("Making " + type + " the Italian way");
+        public void prepareDough(String type) {
+            System.out.println("Preparing the dough for " + type + " the Italian way");
+        }
+
+        @Override
+        public void addSauce(String type) {
+            System.out.println("Adding sauce on " + type + " the Italian way");
+        }
+
+        @Override
+        public void addToppings(String type) {
+            System.out.println("Adding Toppings on " + type + " the Italian way");
+        }
+
+        @Override
+        public void bake(String type) {
+            System.out.println("Baking the " + type + " the Italian way");
         }
     }
 
     // Concrete Implementor: MexicanWay
     public class MexicanWay implements PizzaWay {
         @Override
-        public void make(String type) {
-            System.out.println("Making " + type + " the Mexican way");
+        public void prepareDough(String type) {
+            System.out.println("Preparing the dough for " + type + " the Mexican way");
+        }
+
+        @Override
+        public void addSauce(String type) {
+            System.out.println("Adding sauce on " + type + " the Mexican way");
+        }
+
+        @Override
+        public void addToppings(String type) {
+            System.out.println("Adding Toppings on " + type + " the Mexican way");
+        }
+
+        @Override
+        public void bake(String type) {
+            System.out.println("Baking the " + type + " the Mexican way");
         }
     }
 

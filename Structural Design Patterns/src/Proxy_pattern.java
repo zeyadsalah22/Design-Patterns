@@ -76,7 +76,7 @@ public class Proxy_pattern {
     // Class to handle caching and delegate to the real account retriever if not in cache
     public class CacheProxyAccountRetriever implements AccountRetriever {
         private static Map<String, Account> cache = new HashMap<>();
-        private AccountRetriever realAccountRetriever = new RealAccountRetriever();
+        private AccountRetriever nextProxy = new RealAccountRetriever();
 
         @Override
         public void getAccount(Account account) {
@@ -84,7 +84,7 @@ public class Proxy_pattern {
                 System.out.println("Account not in cache");
                 cache.put(account.getName(), account);
             }
-            realAccountRetriever.getAccount(cache.get(account.getName()));
+            nextProxy.getAccount(cache.get(account.getName()));
         }
     }
 
