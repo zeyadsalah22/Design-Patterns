@@ -38,7 +38,7 @@ By using design patterns, you can make your code more flexible, reusable, and ea
 | | | [Interpreter](#interpreter-pattern) |
 | | | [Strategy](#strategy-pattern) |
 | | | [State](#state-pattern) |
-| | | [Template Method](#template-method-pattern) |
+| | | [Template](#template-method-pattern) |
 ## Classification of Design Patterns
 
 ### Creational Patterns
@@ -308,7 +308,7 @@ By using design patterns, you can make your code more flexible, reusable, and ea
 - [Template Method Pattern Code (C#)](https://github.com/zeyadsalah22/Design-Patterns/blob/main/BDP(C%23)/TemplateMethodPattern/Program.cs)
 - Class Diagram(C# implementation might have slight modifications)
   <br>
-  <img src="https://github.com/zeyadsalah22/Design-Patterns/blob/main/images/behavioral/template_method.png" width="400"/>
+  <img src="https://github.com/zeyadsalah22/Design-Patterns/blob/main/images/behavioral/template.png" width="400"/>
 
 #### Visitor Pattern
 - **Explanation**: Lets you separate algorithms from the objects on which they operate. By using the Visitor Pattern, you can add new operations to existing object structures without modifying those structures.
