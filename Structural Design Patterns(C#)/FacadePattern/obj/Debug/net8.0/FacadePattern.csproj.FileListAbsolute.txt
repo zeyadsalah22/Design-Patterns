@@ -1,0 +1,14 @@
+C:\Users\Lenovo\OneDrive - Egypt Japan University Of Science and Technology (E-JUST)\Desktop\Design Patterns C#\Structural Design Patterns\FacadePattern\bin\Debug\net8.0\FacadePattern.exe
+C:\Users\Lenovo\OneDrive - Egypt Japan University Of Science and Technology (E-JUST)\Desktop\Design Patterns C#\Structural Design Patterns\FacadePattern\bin\Debug\net8.0\FacadePattern.deps.json
+C:\Users\Lenovo\OneDrive - Egypt Japan University Of Science and Technology (E-JUST)\Desktop\Design Patterns C#\Structural Design Patterns\FacadePattern\bin\Debug\net8.0\FacadePattern.runtimeconfig.json
+C:\Users\Lenovo\OneDrive - Egypt Japan University Of Science and Technology (E-JUST)\Desktop\Design Patterns C#\Structural Design Patterns\FacadePattern\bin\Debug\net8.0\FacadePattern.dll
+C:\Users\Lenovo\OneDrive - Egypt Japan University Of Science and Technology (E-JUST)\Desktop\Design Patterns C#\Structural Design Patterns\FacadePattern\bin\Debug\net8.0\FacadePattern.pdb
+C:\Users\Lenovo\OneDrive - Egypt Japan University Of Science and Technology (E-JUST)\Desktop\Design Patterns C#\Structural Design Patterns\FacadePattern\obj\Debug\net8.0\FacadePattern.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lenovo\OneDrive - Egypt Japan University Of Science and Technology (E-JUST)\Desktop\Design Patterns C#\Structural Design Patterns\FacadePattern\obj\Debug\net8.0\FacadePattern.AssemblyInfoInputs.cache
+C:\Users\Lenovo\OneDrive - Egypt Japan University Of Science and Technology (E-JUST)\Desktop\Design Patterns C#\Structural Design Patterns\FacadePattern\obj\Debug\net8.0\FacadePattern.AssemblyInfo.cs
+C:\Users\Lenovo\OneDrive - Egypt Japan University Of Science and Technology (E-JUST)\Desktop\Design Patterns C#\Structural Design Patterns\FacadePattern\obj\Debug\net8.0\FacadePattern.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\OneDrive - Egypt Japan University Of Science and Technology (E-JUST)\Desktop\Design Patterns C#\Structural Design Patterns\FacadePattern\obj\Debug\net8.0\FacadePattern.dll
+C:\Users\Lenovo\OneDrive - Egypt Japan University Of Science and Technology (E-JUST)\Desktop\Design Patterns C#\Structural Design Patterns\FacadePattern\obj\Debug\net8.0\refint\FacadePattern.dll
+C:\Users\Lenovo\OneDrive - Egypt Japan University Of Science and Technology (E-JUST)\Desktop\Design Patterns C#\Structural Design Patterns\FacadePattern\obj\Debug\net8.0\FacadePattern.pdb
+C:\Users\Lenovo\OneDrive - Egypt Japan University Of Science and Technology (E-JUST)\Desktop\Design Patterns C#\Structural Design Patterns\FacadePattern\obj\Debug\net8.0\FacadePattern.genruntimeconfig.cache
+C:\Users\Lenovo\OneDrive - Egypt Japan University Of Science and Technology (E-JUST)\Desktop\Design Patterns C#\Structural Design Patterns\FacadePattern\obj\Debug\net8.0\ref\FacadePattern.dll

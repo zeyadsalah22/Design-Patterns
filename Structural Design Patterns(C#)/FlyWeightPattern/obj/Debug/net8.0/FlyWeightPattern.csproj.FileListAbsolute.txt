@@ -1,0 +1,14 @@
+C:\Users\Lenovo\OneDrive - Egypt Japan University Of Science and Technology (E-JUST)\Desktop\Design Patterns C#\Structural Design Patterns\FlyWeightPattern\bin\Debug\net8.0\FlyWeightPattern.exe
+C:\Users\Lenovo\OneDrive - Egypt Japan University Of Science and Technology (E-JUST)\Desktop\Design Patterns C#\Structural Design Patterns\FlyWeightPattern\bin\Debug\net8.0\FlyWeightPattern.deps.json
+C:\Users\Lenovo\OneDrive - Egypt Japan University Of Science and Technology (E-JUST)\Desktop\Design Patterns C#\Structural Design Patterns\FlyWeightPattern\bin\Debug\net8.0\FlyWeightPattern.runtimeconfig.json
+C:\Users\Lenovo\OneDrive - Egypt Japan University Of Science and Technology (E-JUST)\Desktop\Design Patterns C#\Structural Design Patterns\FlyWeightPattern\bin\Debug\net8.0\FlyWeightPattern.dll
+C:\Users\Lenovo\OneDrive - Egypt Japan University Of Science and Technology (E-JUST)\Desktop\Design Patterns C#\Structural Design Patterns\FlyWeightPattern\bin\Debug\net8.0\FlyWeightPattern.pdb
+C:\Users\Lenovo\OneDrive - Egypt Japan University Of Science and Technology (E-JUST)\Desktop\Design Patterns C#\Structural Design Patterns\FlyWeightPattern\obj\Debug\net8.0\FlyWeightPattern.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lenovo\OneDrive - Egypt Japan University Of Science and Technology (E-JUST)\Desktop\Design Patterns C#\Structural Design Patterns\FlyWeightPattern\obj\Debug\net8.0\FlyWeightPattern.AssemblyInfoInputs.cache
+C:\Users\Lenovo\OneDrive - Egypt Japan University Of Science and Technology (E-JUST)\Desktop\Design Patterns C#\Structural Design Patterns\FlyWeightPattern\obj\Debug\net8.0\FlyWeightPattern.AssemblyInfo.cs
+C:\Users\Lenovo\OneDrive - Egypt Japan University Of Science and Technology (E-JUST)\Desktop\Design Patterns C#\Structural Design Patterns\FlyWeightPattern\obj\Debug\net8.0\FlyWeightPattern.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\OneDrive - Egypt Japan University Of Science and Technology (E-JUST)\Desktop\Design Patterns C#\Structural Design Patterns\FlyWeightPattern\obj\Debug\net8.0\FlyWeightPattern.dll
+C:\Users\Lenovo\OneDrive - Egypt Japan University Of Science and Technology (E-JUST)\Desktop\Design Patterns C#\Structural Design Patterns\FlyWeightPattern\obj\Debug\net8.0\refint\FlyWeightPattern.dll
+C:\Users\Lenovo\OneDrive - Egypt Japan University Of Science and Technology (E-JUST)\Desktop\Design Patterns C#\Structural Design Patterns\FlyWeightPattern\obj\Debug\net8.0\FlyWeightPattern.pdb
+C:\Users\Lenovo\OneDrive - Egypt Japan University Of Science and Technology (E-JUST)\Desktop\Design Patterns C#\Structural Design Patterns\FlyWeightPattern\obj\Debug\net8.0\FlyWeightPattern.genruntimeconfig.cache
+C:\Users\Lenovo\OneDrive - Egypt Japan University Of Science and Technology (E-JUST)\Desktop\Design Patterns C#\Structural Design Patterns\FlyWeightPattern\obj\Debug\net8.0\ref\FlyWeightPattern.dll

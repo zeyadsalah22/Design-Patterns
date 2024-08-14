@@ -1,0 +1,14 @@
+C:\Users\Lenovo\source\repos\Structural Design Patterns\AdapterPattern\bin\Debug\net8.0\AdapterPattern.exe
+C:\Users\Lenovo\source\repos\Structural Design Patterns\AdapterPattern\bin\Debug\net8.0\AdapterPattern.deps.json
+C:\Users\Lenovo\source\repos\Structural Design Patterns\AdapterPattern\bin\Debug\net8.0\AdapterPattern.runtimeconfig.json
+C:\Users\Lenovo\source\repos\Structural Design Patterns\AdapterPattern\bin\Debug\net8.0\AdapterPattern.dll
+C:\Users\Lenovo\source\repos\Structural Design Patterns\AdapterPattern\bin\Debug\net8.0\AdapterPattern.pdb
+C:\Users\Lenovo\source\repos\Structural Design Patterns\AdapterPattern\obj\Debug\net8.0\AdapterPattern.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lenovo\source\repos\Structural Design Patterns\AdapterPattern\obj\Debug\net8.0\AdapterPattern.AssemblyInfoInputs.cache
+C:\Users\Lenovo\source\repos\Structural Design Patterns\AdapterPattern\obj\Debug\net8.0\AdapterPattern.AssemblyInfo.cs
+C:\Users\Lenovo\source\repos\Structural Design Patterns\AdapterPattern\obj\Debug\net8.0\AdapterPattern.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\source\repos\Structural Design Patterns\AdapterPattern\obj\Debug\net8.0\AdapterPattern.dll
+C:\Users\Lenovo\source\repos\Structural Design Patterns\AdapterPattern\obj\Debug\net8.0\refint\AdapterPattern.dll
+C:\Users\Lenovo\source\repos\Structural Design Patterns\AdapterPattern\obj\Debug\net8.0\AdapterPattern.pdb
+C:\Users\Lenovo\source\repos\Structural Design Patterns\AdapterPattern\obj\Debug\net8.0\AdapterPattern.genruntimeconfig.cache
+C:\Users\Lenovo\source\repos\Structural Design Patterns\AdapterPattern\obj\Debug\net8.0\ref\AdapterPattern.dll
