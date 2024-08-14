@@ -1,0 +1,14 @@
+C:\Users\Lenovo\OneDrive - Egypt Japan University Of Science and Technology (E-JUST)\Desktop\Design Patterns C#\Behavioral Design Patterns\MediatorPattern\bin\Debug\net8.0\MediatorPattern.exe
+C:\Users\Lenovo\OneDrive - Egypt Japan University Of Science and Technology (E-JUST)\Desktop\Design Patterns C#\Behavioral Design Patterns\MediatorPattern\bin\Debug\net8.0\MediatorPattern.deps.json
+C:\Users\Lenovo\OneDrive - Egypt Japan University Of Science and Technology (E-JUST)\Desktop\Design Patterns C#\Behavioral Design Patterns\MediatorPattern\bin\Debug\net8.0\MediatorPattern.runtimeconfig.json
+C:\Users\Lenovo\OneDrive - Egypt Japan University Of Science and Technology (E-JUST)\Desktop\Design Patterns C#\Behavioral Design Patterns\MediatorPattern\bin\Debug\net8.0\MediatorPattern.dll
+C:\Users\Lenovo\OneDrive - Egypt Japan University Of Science and Technology (E-JUST)\Desktop\Design Patterns C#\Behavioral Design Patterns\MediatorPattern\bin\Debug\net8.0\MediatorPattern.pdb
+C:\Users\Lenovo\OneDrive - Egypt Japan University Of Science and Technology (E-JUST)\Desktop\Design Patterns C#\Behavioral Design Patterns\MediatorPattern\obj\Debug\net8.0\MediatorPattern.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lenovo\OneDrive - Egypt Japan University Of Science and Technology (E-JUST)\Desktop\Design Patterns C#\Behavioral Design Patterns\MediatorPattern\obj\Debug\net8.0\MediatorPattern.AssemblyInfoInputs.cache
+C:\Users\Lenovo\OneDrive - Egypt Japan University Of Science and Technology (E-JUST)\Desktop\Design Patterns C#\Behavioral Design Patterns\MediatorPattern\obj\Debug\net8.0\MediatorPattern.AssemblyInfo.cs
+C:\Users\Lenovo\OneDrive - Egypt Japan University Of Science and Technology (E-JUST)\Desktop\Design Patterns C#\Behavioral Design Patterns\MediatorPattern\obj\Debug\net8.0\MediatorPattern.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\OneDrive - Egypt Japan University Of Science and Technology (E-JUST)\Desktop\Design Patterns C#\Behavioral Design Patterns\MediatorPattern\obj\Debug\net8.0\MediatorPattern.dll
+C:\Users\Lenovo\OneDrive - Egypt Japan University Of Science and Technology (E-JUST)\Desktop\Design Patterns C#\Behavioral Design Patterns\MediatorPattern\obj\Debug\net8.0\refint\MediatorPattern.dll
+C:\Users\Lenovo\OneDrive - Egypt Japan University Of Science and Technology (E-JUST)\Desktop\Design Patterns C#\Behavioral Design Patterns\MediatorPattern\obj\Debug\net8.0\MediatorPattern.pdb
+C:\Users\Lenovo\OneDrive - Egypt Japan University Of Science and Technology (E-JUST)\Desktop\Design Patterns C#\Behavioral Design Patterns\MediatorPattern\obj\Debug\net8.0\MediatorPattern.genruntimeconfig.cache
+C:\Users\Lenovo\OneDrive - Egypt Japan University Of Science and Technology (E-JUST)\Desktop\Design Patterns C#\Behavioral Design Patterns\MediatorPattern\obj\Debug\net8.0\ref\MediatorPattern.dll

@@ -1,0 +1,14 @@
+C:\Users\Lenovo\OneDrive - Egypt Japan University Of Science and Technology (E-JUST)\Desktop\Design Patterns C#\Behavioral Design Patterns\VisitorPattern\bin\Debug\net8.0\VisitorPattern.exe
+C:\Users\Lenovo\OneDrive - Egypt Japan University Of Science and Technology (E-JUST)\Desktop\Design Patterns C#\Behavioral Design Patterns\VisitorPattern\bin\Debug\net8.0\VisitorPattern.deps.json
+C:\Users\Lenovo\OneDrive - Egypt Japan University Of Science and Technology (E-JUST)\Desktop\Design Patterns C#\Behavioral Design Patterns\VisitorPattern\bin\Debug\net8.0\VisitorPattern.runtimeconfig.json
+C:\Users\Lenovo\OneDrive - Egypt Japan University Of Science and Technology (E-JUST)\Desktop\Design Patterns C#\Behavioral Design Patterns\VisitorPattern\bin\Debug\net8.0\VisitorPattern.dll
+C:\Users\Lenovo\OneDrive - Egypt Japan University Of Science and Technology (E-JUST)\Desktop\Design Patterns C#\Behavioral Design Patterns\VisitorPattern\bin\Debug\net8.0\VisitorPattern.pdb
+C:\Users\Lenovo\OneDrive - Egypt Japan University Of Science and Technology (E-JUST)\Desktop\Design Patterns C#\Behavioral Design Patterns\VisitorPattern\obj\Debug\net8.0\VisitorPattern.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lenovo\OneDrive - Egypt Japan University Of Science and Technology (E-JUST)\Desktop\Design Patterns C#\Behavioral Design Patterns\VisitorPattern\obj\Debug\net8.0\VisitorPattern.AssemblyInfoInputs.cache
+C:\Users\Lenovo\OneDrive - Egypt Japan University Of Science and Technology (E-JUST)\Desktop\Design Patterns C#\Behavioral Design Patterns\VisitorPattern\obj\Debug\net8.0\VisitorPattern.AssemblyInfo.cs
+C:\Users\Lenovo\OneDrive - Egypt Japan University Of Science and Technology (E-JUST)\Desktop\Design Patterns C#\Behavioral Design Patterns\VisitorPattern\obj\Debug\net8.0\VisitorPattern.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\OneDrive - Egypt Japan University Of Science and Technology (E-JUST)\Desktop\Design Patterns C#\Behavioral Design Patterns\VisitorPattern\obj\Debug\net8.0\VisitorPattern.dll
+C:\Users\Lenovo\OneDrive - Egypt Japan University Of Science and Technology (E-JUST)\Desktop\Design Patterns C#\Behavioral Design Patterns\VisitorPattern\obj\Debug\net8.0\refint\VisitorPattern.dll
+C:\Users\Lenovo\OneDrive - Egypt Japan University Of Science and Technology (E-JUST)\Desktop\Design Patterns C#\Behavioral Design Patterns\VisitorPattern\obj\Debug\net8.0\VisitorPattern.pdb
+C:\Users\Lenovo\OneDrive - Egypt Japan University Of Science and Technology (E-JUST)\Desktop\Design Patterns C#\Behavioral Design Patterns\VisitorPattern\obj\Debug\net8.0\VisitorPattern.genruntimeconfig.cache
+C:\Users\Lenovo\OneDrive - Egypt Japan University Of Science and Technology (E-JUST)\Desktop\Design Patterns C#\Behavioral Design Patterns\VisitorPattern\obj\Debug\net8.0\ref\VisitorPattern.dll

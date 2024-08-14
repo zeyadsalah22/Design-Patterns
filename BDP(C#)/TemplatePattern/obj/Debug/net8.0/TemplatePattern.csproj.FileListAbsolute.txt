@@ -1,0 +1,14 @@
+C:\Users\Lenovo\OneDrive - Egypt Japan University Of Science and Technology (E-JUST)\Desktop\Design Patterns C#\Behavioral Design Patterns\TemplatePattern\bin\Debug\net8.0\TemplatePattern.exe
+C:\Users\Lenovo\OneDrive - Egypt Japan University Of Science and Technology (E-JUST)\Desktop\Design Patterns C#\Behavioral Design Patterns\TemplatePattern\bin\Debug\net8.0\TemplatePattern.deps.json
+C:\Users\Lenovo\OneDrive - Egypt Japan University Of Science and Technology (E-JUST)\Desktop\Design Patterns C#\Behavioral Design Patterns\TemplatePattern\bin\Debug\net8.0\TemplatePattern.runtimeconfig.json
+C:\Users\Lenovo\OneDrive - Egypt Japan University Of Science and Technology (E-JUST)\Desktop\Design Patterns C#\Behavioral Design Patterns\TemplatePattern\bin\Debug\net8.0\TemplatePattern.dll
+C:\Users\Lenovo\OneDrive - Egypt Japan University Of Science and Technology (E-JUST)\Desktop\Design Patterns C#\Behavioral Design Patterns\TemplatePattern\bin\Debug\net8.0\TemplatePattern.pdb
+C:\Users\Lenovo\OneDrive - Egypt Japan University Of Science and Technology (E-JUST)\Desktop\Design Patterns C#\Behavioral Design Patterns\TemplatePattern\obj\Debug\net8.0\TemplatePattern.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lenovo\OneDrive - Egypt Japan University Of Science and Technology (E-JUST)\Desktop\Design Patterns C#\Behavioral Design Patterns\TemplatePattern\obj\Debug\net8.0\TemplatePattern.AssemblyInfoInputs.cache
+C:\Users\Lenovo\OneDrive - Egypt Japan University Of Science and Technology (E-JUST)\Desktop\Design Patterns C#\Behavioral Design Patterns\TemplatePattern\obj\Debug\net8.0\TemplatePattern.AssemblyInfo.cs
+C:\Users\Lenovo\OneDrive - Egypt Japan University Of Science and Technology (E-JUST)\Desktop\Design Patterns C#\Behavioral Design Patterns\TemplatePattern\obj\Debug\net8.0\TemplatePattern.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\OneDrive - Egypt Japan University Of Science and Technology (E-JUST)\Desktop\Design Patterns C#\Behavioral Design Patterns\TemplatePattern\obj\Debug\net8.0\TemplatePattern.dll
+C:\Users\Lenovo\OneDrive - Egypt Japan University Of Science and Technology (E-JUST)\Desktop\Design Patterns C#\Behavioral Design Patterns\TemplatePattern\obj\Debug\net8.0\refint\TemplatePattern.dll
+C:\Users\Lenovo\OneDrive - Egypt Japan University Of Science and Technology (E-JUST)\Desktop\Design Patterns C#\Behavioral Design Patterns\TemplatePattern\obj\Debug\net8.0\TemplatePattern.pdb
+C:\Users\Lenovo\OneDrive - Egypt Japan University Of Science and Technology (E-JUST)\Desktop\Design Patterns C#\Behavioral Design Patterns\TemplatePattern\obj\Debug\net8.0\TemplatePattern.genruntimeconfig.cache
+C:\Users\Lenovo\OneDrive - Egypt Japan University Of Science and Technology (E-JUST)\Desktop\Design Patterns C#\Behavioral Design Patterns\TemplatePattern\obj\Debug\net8.0\ref\TemplatePattern.dll

@@ -1,0 +1,14 @@
+C:\Users\Lenovo\OneDrive - Egypt Japan University Of Science and Technology (E-JUST)\Desktop\Design Patterns C#\Behavioral Design Patterns\MementoPattern\bin\Debug\net8.0\MementoPattern.exe
+C:\Users\Lenovo\OneDrive - Egypt Japan University Of Science and Technology (E-JUST)\Desktop\Design Patterns C#\Behavioral Design Patterns\MementoPattern\bin\Debug\net8.0\MementoPattern.deps.json
+C:\Users\Lenovo\OneDrive - Egypt Japan University Of Science and Technology (E-JUST)\Desktop\Design Patterns C#\Behavioral Design Patterns\MementoPattern\bin\Debug\net8.0\MementoPattern.runtimeconfig.json
+C:\Users\Lenovo\OneDrive - Egypt Japan University Of Science and Technology (E-JUST)\Desktop\Design Patterns C#\Behavioral Design Patterns\MementoPattern\bin\Debug\net8.0\MementoPattern.dll
+C:\Users\Lenovo\OneDrive - Egypt Japan University Of Science and Technology (E-JUST)\Desktop\Design Patterns C#\Behavioral Design Patterns\MementoPattern\bin\Debug\net8.0\MementoPattern.pdb
+C:\Users\Lenovo\OneDrive - Egypt Japan University Of Science and Technology (E-JUST)\Desktop\Design Patterns C#\Behavioral Design Patterns\MementoPattern\obj\Debug\net8.0\MementoPattern.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lenovo\OneDrive - Egypt Japan University Of Science and Technology (E-JUST)\Desktop\Design Patterns C#\Behavioral Design Patterns\MementoPattern\obj\Debug\net8.0\MementoPattern.AssemblyInfoInputs.cache
+C:\Users\Lenovo\OneDrive - Egypt Japan University Of Science and Technology (E-JUST)\Desktop\Design Patterns C#\Behavioral Design Patterns\MementoPattern\obj\Debug\net8.0\MementoPattern.AssemblyInfo.cs
+C:\Users\Lenovo\OneDrive - Egypt Japan University Of Science and Technology (E-JUST)\Desktop\Design Patterns C#\Behavioral Design Patterns\MementoPattern\obj\Debug\net8.0\MementoPattern.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\OneDrive - Egypt Japan University Of Science and Technology (E-JUST)\Desktop\Design Patterns C#\Behavioral Design Patterns\MementoPattern\obj\Debug\net8.0\MementoPattern.dll
+C:\Users\Lenovo\OneDrive - Egypt Japan University Of Science and Technology (E-JUST)\Desktop\Design Patterns C#\Behavioral Design Patterns\MementoPattern\obj\Debug\net8.0\refint\MementoPattern.dll
+C:\Users\Lenovo\OneDrive - Egypt Japan University Of Science and Technology (E-JUST)\Desktop\Design Patterns C#\Behavioral Design Patterns\MementoPattern\obj\Debug\net8.0\MementoPattern.pdb
+C:\Users\Lenovo\OneDrive - Egypt Japan University Of Science and Technology (E-JUST)\Desktop\Design Patterns C#\Behavioral Design Patterns\MementoPattern\obj\Debug\net8.0\MementoPattern.genruntimeconfig.cache
+C:\Users\Lenovo\OneDrive - Egypt Japan University Of Science and Technology (E-JUST)\Desktop\Design Patterns C#\Behavioral Design Patterns\MementoPattern\obj\Debug\net8.0\ref\MementoPattern.dll

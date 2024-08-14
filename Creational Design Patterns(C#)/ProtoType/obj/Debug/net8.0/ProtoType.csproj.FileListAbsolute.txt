@@ -1,0 +1,14 @@
+C:\Users\Lenovo\OneDrive - Egypt Japan University Of Science and Technology (E-JUST)\Desktop\Design Patterns C#\Creational Design Patterns\ProtoType\obj\Debug\net8.0\ProtoType.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lenovo\OneDrive - Egypt Japan University Of Science and Technology (E-JUST)\Desktop\Design Patterns C#\Creational Design Patterns\ProtoType\obj\Debug\net8.0\ProtoType.AssemblyInfoInputs.cache
+C:\Users\Lenovo\OneDrive - Egypt Japan University Of Science and Technology (E-JUST)\Desktop\Design Patterns C#\Creational Design Patterns\ProtoType\obj\Debug\net8.0\ProtoType.AssemblyInfo.cs
+C:\Users\Lenovo\OneDrive - Egypt Japan University Of Science and Technology (E-JUST)\Desktop\Design Patterns C#\Creational Design Patterns\ProtoType\obj\Debug\net8.0\ProtoType.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\OneDrive - Egypt Japan University Of Science and Technology (E-JUST)\Desktop\Design Patterns C#\Creational Design Patterns\ProtoType\bin\Debug\net8.0\ProtoType.exe
+C:\Users\Lenovo\OneDrive - Egypt Japan University Of Science and Technology (E-JUST)\Desktop\Design Patterns C#\Creational Design Patterns\ProtoType\bin\Debug\net8.0\ProtoType.deps.json
+C:\Users\Lenovo\OneDrive - Egypt Japan University Of Science and Technology (E-JUST)\Desktop\Design Patterns C#\Creational Design Patterns\ProtoType\bin\Debug\net8.0\ProtoType.runtimeconfig.json
+C:\Users\Lenovo\OneDrive - Egypt Japan University Of Science and Technology (E-JUST)\Desktop\Design Patterns C#\Creational Design Patterns\ProtoType\bin\Debug\net8.0\ProtoType.dll
+C:\Users\Lenovo\OneDrive - Egypt Japan University Of Science and Technology (E-JUST)\Desktop\Design Patterns C#\Creational Design Patterns\ProtoType\bin\Debug\net8.0\ProtoType.pdb
+C:\Users\Lenovo\OneDrive - Egypt Japan University Of Science and Technology (E-JUST)\Desktop\Design Patterns C#\Creational Design Patterns\ProtoType\obj\Debug\net8.0\ProtoType.dll
+C:\Users\Lenovo\OneDrive - Egypt Japan University Of Science and Technology (E-JUST)\Desktop\Design Patterns C#\Creational Design Patterns\ProtoType\obj\Debug\net8.0\refint\ProtoType.dll
+C:\Users\Lenovo\OneDrive - Egypt Japan University Of Science and Technology (E-JUST)\Desktop\Design Patterns C#\Creational Design Patterns\ProtoType\obj\Debug\net8.0\ProtoType.pdb
+C:\Users\Lenovo\OneDrive - Egypt Japan University Of Science and Technology (E-JUST)\Desktop\Design Patterns C#\Creational Design Patterns\ProtoType\obj\Debug\net8.0\ProtoType.genruntimeconfig.cache
+C:\Users\Lenovo\OneDrive - Egypt Japan University Of Science and Technology (E-JUST)\Desktop\Design Patterns C#\Creational Design Patterns\ProtoType\obj\Debug\net8.0\ref\ProtoType.dll
