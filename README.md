@@ -1,4 +1,4 @@
-# Design Patterns in Java
+# Design Patterns in Java and C#
 
 ## Introduction
 
