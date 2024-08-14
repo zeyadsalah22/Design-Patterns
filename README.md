@@ -1,5 +1,19 @@
 # Design Patterns in Java and C#
 
+Welcome to my Design Patterns repository! This repository showcases various design patterns implemented in Java and C#. Each pattern is explained with a brief description and visualized with class diagrams. 
+
+## Table of Contents
+- [Introduction](#introduction)
+- [Design Patterns Overview](#design-patterns-overview)
+- [Classification of Design Patterns](#classification-of-design-patterns)
+  - [Creational Patterns](#creational-patterns)
+  - [Structural Patterns](#structural-patterns)
+  - [Behavioral Patterns](#behavioral-patterns)
+- [Resources](#resources)
+- [Languages & Tools](#languages--tools)
+- [Contact](#contact)
+
+
 ## Introduction
 
 Design patterns are typical solutions to common problems in software design provided by object-oriented programming expert developers. Each pattern is like a blueprint that you can customize to solve a particular design problem in your code. They are categorized into three groups:
@@ -10,37 +24,21 @@ Design patterns are typical solutions to common problems in software design prov
 
 By using design patterns, you can make your code more flexible, reusable, and easier to understand.
 
-## Outline
+## Design Patterns Overview
 
-### Creational Patterns
-1. [Singleton Pattern](#singleton-pattern)
-2. [Factory Method Pattern](#factory-method-pattern)
-3. [Abstract Factory Pattern](#abstract-factory-pattern)
-4. [Builder Pattern](#builder-pattern)
-5. [Prototype Pattern](#prototype-pattern)
-
-### Behavioral Patterns
-1. [Chain of Responsibility Pattern](#chain-of-responsibility-pattern)
-2. [Command Pattern](#command-pattern)
-3. [Interpreter Pattern](#interpreter-pattern)
-4. [Iterator Pattern](#iterator-pattern)
-5. [Mediator Pattern](#mediator-pattern)
-6. [Memento Pattern](#memento-pattern)
-7. [Observer Pattern](#observer-pattern)
-8. [State Pattern](#state-pattern)
-9. [Strategy Pattern](#strategy-pattern)
-10. [Template Method Pattern](#template-method-pattern)
-11. [Visitor Pattern](#visitor-pattern)
-
-### Structural Patterns
-1. [Adapter Pattern](#adapter-pattern)
-2. [Bridge Pattern](#bridge-pattern)
-3. [Composite Pattern](#composite-pattern)
-4. [Decorator Pattern](#decorator-pattern)
-5. [Facade Pattern](#facade-pattern)
-6. [Flyweight Pattern](#flyweight-pattern)
-7. [Proxy Pattern](#proxy-pattern)
-
+| [Creational Design Patterns](#creational-design-patterns) | [Structural Design Patterns](#structural-design-patterns) | [Behavioral Design Patterns](#behavioral-design-patterns) |
+|:-|:-|:-|
+| [Singleton](#singleton-pattern) | [Adapter](#adapter-pattern) | [Chain of Responsibility](#chain-of-responsibility-pattern) |
+| [Factory Method](#factory-method-pattern) | [Bridge](#bridge-pattern) | [Command](#command-pattern) |
+| [Abstract Factory](#abstract-factory-pattern) | [Composite](#composite-pattern) | [Iterator](#iterator-pattern) |
+| [Builder](#builder-pattern) | [Decorator](#decorator-pattern) | [Mediator](#mediator-pattern) |
+| [Prototype](#prototype-pattern) | [Facade](#facade-pattern) | [Memento](#memento-pattern) |
+| [Singleton](#singleton-pattern) | [Flyweight](#flyweight-pattern) | [Observer](#observer-pattern) |
+| | [Proxy](#proxy-pattern) | [Visitor](#visitor-pattern) |
+| | | [Interpreter](#interpreter-pattern) |
+| | | [Strategy](#strategy-pattern) |
+| | | [State](#state-pattern) |
+| | | [Template Method](#template-method-pattern) |
 ## Classification of Design Patterns
 
 ### Creational Patterns
@@ -48,86 +46,91 @@ By using design patterns, you can make your code more flexible, reusable, and ea
 #### Singleton Pattern
 - **Explanation**: Ensures that a class has only one instance and provides a global point of access to it.
 - **Main Points**:
-   - Should only be used when a class must have a single instance available.
-   - Disable all means of creating objects of the class except for a special static creation method, and it returns the existing instance if it is already created.
-   - Its code needs to be adapted to handle multiple threads.
-   - Initialization types: Early initialization, Lazy initialization.
+  - Should only be used when a class must have a single instance available.
+  - Disable all means of creating objects of the class except for a special static creation method, and it returns the existing instance if it is already created.
+  - Its code needs to be adapted to handle multiple threads.
+  - Initialization types: Early initialization, Lazy initialization.
 - **Components**:
-   - Static member
-   - Private constructor
-   - Static factory method
-- [Singleton Pattern Code(JAVA)](https://github.com/zeyadsalah22/Design-Patterns/blob/main/Creational%20Design%20Patterns/src/Singleton.java)
-- [Singleton Pattern Code(C#)](https://github.com/zeyadsalah22/Design-Patterns/blob/main/Creational%20Design%20Patterns(C%23)/Singleton/Program.cs)
+  - Static member
+  - Private constructor
+  - Static factory method
+- [Singleton Pattern Code (JAVA)](https://github.com/zeyadsalah22/Design-Patterns/blob/main/Creational%20Design%20Patterns/src/Singleton.java)
+- [Singleton Pattern Code (C#)](https://github.com/zeyadsalah22/Design-Patterns/blob/main/Creational%20Design%20Patterns(C%23)/Singleton/Program.cs)
 - Class Diagram(C# implementation might have slight modifications)
+  <br>
   <img src="https://github.com/zeyadsalah22/Design-Patterns/blob/main/images/creational/singleton.png" width="400"/>
 
 #### Factory Method Pattern
 - **Explanation**: Defines an interface for creating an object, but allows subclasses to alter the type of objects that will be created.
 - **Main Points**:
-   - Use it if you have no idea the exact types of the object your code will work with.
-   - Makes it easy to extend the product construction code independently from the rest of the application.
-   - Allow introducing new products without breaking existing code.
-   - Centralizes the product creation code in one place in program.
+  - Use it if you have no idea the exact types of the object your code will work with.
+  - Makes it easy to extend the product construction code independently from the rest of the application.
+  - Allows introducing new products without breaking existing code.
+  - Centralizes the product creation code in one place in the program.
 - **Components**:
-   - Creator
-   - Concrete Creator
-   - Product
-   - Concrete Product
-- [Factory Method Pattern Code(JAVA)](https://github.com/zeyadsalah22/Design-Patterns/blob/main/Creational%20Design%20Patterns/src/Factory_method.java)
-- [Factory Method Pattern Code(C#)](https://github.com/zeyadsalah22/Design-Patterns/blob/main/Creational%20Design%20Patterns(C%23)/FactoryMethod/Program.cs)
+  - Creator
+  - Concrete Creator
+  - Product
+  - Concrete Product
+- [Factory Method Pattern Code (JAVA)](https://github.com/zeyadsalah22/Design-Patterns/blob/main/Creational%20Design%20Patterns/src/Factory_method.java)
+- [Factory Method Pattern Code (C#)](https://github.com/zeyadsalah22/Design-Patterns/blob/main/Creational%20Design%20Patterns(C%23)/FactoryMethod/Program.cs)
 - Class Diagram(C# implementation might have slight modifications)
-<img src="https://github.com/zeyadsalah22/Design-Patterns/blob/main/images/creational/factory.png" width="400"/>
+  <br>
+  <img src="https://github.com/zeyadsalah22/Design-Patterns/blob/main/images/creational/factory.png" width="400"/>
 
 #### Abstract Factory Pattern
 - **Explanation**: Provides an interface for creating families of related or dependent objects without specifying their concrete classes.
 - **Main Points**:
-   - Use it when your code needs to work with various families of related products.
-   - Many designs start with the factory pattern and then evolve to the Abstract factory pattern.
-   - Follows the open_closed and single responsibility principles.
-   - Centralizes the product creation code in one place in the program.
+  - Use it when your code needs to work with various families of related products.
+  - Many designs start with the factory pattern and then evolve to the Abstract Factory pattern.
+  - Follows the open/closed and single responsibility principles.
+  - Centralizes the product creation code in one place in the program.
 - **Components**:
-   - Abstract Factory
-   - Concrete Factories
-   - Abstract Products
-   - Concrete Products
-   - Client
-- [Abstract Factory Pattern Code(JAVA)](https://github.com/zeyadsalah22/Design-Patterns/blob/main/Creational%20Design%20Patterns/src/Abstract_Factory.java)
-- [Abstract Factory Pattern Code(C#)](https://github.com/zeyadsalah22/Design-Patterns/blob/main/Creational%20Design%20Patterns(C%23)/AbstractFactory/Program.cs)
+  - Abstract Factory
+  - Concrete Factories
+  - Abstract Products
+  - Concrete Products
+  - Client
+- [Abstract Factory Pattern Code (JAVA)](https://github.com/zeyadsalah22/Design-Patterns/blob/main/Creational%20Design%20Patterns/src/Abstract_Factory.java)
+- [Abstract Factory Pattern Code (C#)](https://github.com/zeyadsalah22/Design-Patterns/blob/main/Creational%20Design%20Patterns(C%23)/AbstractFactory/Program.cs)
 - Class Diagram(C# implementation might have slight modifications)
+  <br>
   <img src="https://github.com/zeyadsalah22/Design-Patterns/blob/main/images/creational/abstractfactory.png" width="400"/>
 
 #### Builder Pattern
 - **Explanation**: Separates the construction of a complex object from its representation, allowing the same construction process to create different representations.
 - **Main Points**:
-   - Create builder class containing same fields of the object you need to be created.
-   - Add several setters for these fields and a 'build' method responsible for creating the object.
-   - Think about creating a director if the same creation code is used to create several objects.
+  - Create a builder class containing the same fields of the object you need to be created.
+  - Add several setters for these fields and a 'build' method responsible for creating the object.
+  - Consider creating a director if the same creation code is used to create several objects.
 - **Components**:
-   - Product
-   - Builder
-   - Concrete Builder
-   - Director
-   - Client
-- [Builder Pattern Code(JAVA)](https://github.com/zeyadsalah22/Design-Patterns/blob/main/Creational%20Design%20Patterns/src/Builder.java)
-- [Builder Pattern Code(C#)](https://github.com/zeyadsalah22/Design-Patterns/blob/main/Creational%20Design%20Patterns(C%23)/Builder/Program.cs)
+  - Product
+  - Builder
+  - Concrete Builder
+  - Director
+  - Client
+- [Builder Pattern Code (JAVA)](https://github.com/zeyadsalah22/Design-Patterns/blob/main/Creational%20Design%20Patterns/src/Builder.java)
+- [Builder Pattern Code (C#)](https://github.com/zeyadsalah22/Design-Patterns/blob/main/Creational%20Design%20Patterns(C%23)/Builder/Program.cs)
 - Class Diagram(C# implementation might have slight modifications)
+  <br>
   <img src="https://github.com/zeyadsalah22/Design-Patterns/blob/main/images/creational/builder.png" width="400"/>
 
 #### Prototype Pattern
 - **Explanation**: Specifies the kinds of objects to create using a prototypical instance, and create new objects by copying this prototype.
 - **Main Points**:
-   - When your code shouldn't depend on concrete classes of the objects you need to copy or duplicate.
-   - Will clone objects without coupling them to their concrete classes.
-   - Will get rid of repeated initialization code.
-   - Will save resources and time.
+  - When your code shouldn't depend on concrete classes of the objects you need to copy or duplicate.
+  - Clones objects without coupling them to their concrete classes.
+  - Eliminates repeated initialization code.
+  - Saves resources and time.
 - **Components**:
-   - Prototype Interface or Abstract Class
-   - Concrete Product
-   - Client
-   - Clone Method
-- [Prototype Pattern Code(JAVA)](https://github.com/zeyadsalah22/Design-Patterns/blob/main/Creational%20Design%20Patterns/src/Prototype.java)
-- [Prototype Pattern Code(C#)](https://github.com/zeyadsalah22/Design-Patterns/blob/main/Creational%20Design%20Patterns(C%23)/ProtoType/Program.cs)
+  - Prototype Interface or Abstract Class
+  - Concrete Product
+  - Client
+  - Clone Method
+- [Prototype Pattern Code (JAVA)](https://github.com/zeyadsalah22/Design-Patterns/blob/main/Creational%20Design%20Patterns/src/Prototype.java)
+- [Prototype Pattern Code (C#)](https://github.com/zeyadsalah22/Design-Patterns/blob/main/Creational%20Design%20Patterns(C%23)/ProtoType/Program.cs)
 - Class Diagram(C# implementation might have slight modifications)
+  <br>
   <img src="https://github.com/zeyadsalah22/Design-Patterns/blob/main/images/creational/prototype.png" width="400"/>
 
 ### Behavioral Patterns
@@ -135,302 +138,314 @@ By using design patterns, you can make your code more flexible, reusable, and ea
 #### Chain of Responsibility Pattern
 - **Explanation**: Lets you pass requests along a chain of handlers. Upon receiving a request, each handler decides either to process the request or to pass it to the next handler in the chain.
 - **Main Points**:
-   - Use when you encounter the need to execute several handlers in particular order.
-   - Allows you to insert, remove or reorder handlers automatically.
-   - Each handler must either process the request or pass it along the chain.
-   - Client might trigger any handler in the chain, not only the first.
+  - Use when you need to execute several handlers in a particular order.
+  - Allows you to insert, remove, or reorder handlers automatically.
+  - Each handler must either process the request or pass it along the chain.
+  - Client might trigger any handler in the chain, not only the first.
 - **Components**:
-   - Handler Interface or abstract class
-   - Concrete Handler
-   - Client
-- [Chain of Responsibility Pattern Code(JAVA)](https://github.com/zeyadsalah22/Design-Patterns/blob/main/Behavioral%20Design%20Patterns/src/Chain_responsibility.java)
-- [Chain of Responsibility Pattern Code(C#)](https://github.com/zeyadsalah22/Design-Patterns/blob/main/BDP(C%23)/ChainResponsibilityPattern/Program.cs)
+  - Handler Interface or Abstract Class
+  - Concrete Handler
+  - Client
+- [Chain of Responsibility Pattern Code (JAVA)](https://github.com/zeyadsalah22/Design-Patterns/blob/main/Behavioral%20Design%20Patterns/src/Chain_responsibility.java)
+- [Chain of Responsibility Pattern Code (C#)](https://github.com/zeyadsalah22/Design-Patterns/blob/main/BDP(C%23)/ChainResponsibilityPattern/Program.cs)
 - Class Diagram(C# implementation might have slight modifications)
+  <br>
   <img src="https://github.com/zeyadsalah22/Design-Patterns/blob/main/images/behavioral/chainofresponsibility.png" width="400"/>
 
 #### Command Pattern
 - **Explanation**: Encapsulates a request as an object, thereby allowing users to parameterize clients with queues, requests, and operations.
 - **Main Points**:
-   - Turns a request or behavior to a stand-alone object that contains everything about the request.
-   - Encapsulates all the relevant information needed to perform an action or trigger a request.
-   - Interesting uses:
-      - Passing commands as method arguments
-      - Storing them inside other objects or even switching commands at runtime.
-   - Commands can be serialized, making it easy to write it into or read it from a file.
+  - Turns a request or behavior into a stand-alone object that contains everything about the request.
+  - Encapsulates all the relevant information needed to perform an action or trigger a request.
+  - Interesting uses:
+    - Passing commands as method arguments
+    - Storing them inside other objects or even switching commands at runtime.
+  - Commands can be serialized, making it easy to write it into or read it from a file.
 - **Components**:
-   - Command Interface
-   - Concrete Command
-   - Invoker
-   - Receiver
-- [Command Pattern Code(JAVA)](https://github.com/zeyadsalah22/Design-Patterns/blob/main/Behavioral%20Design%20Patterns/src/Command_pattern.java)
-- [Command Pattern Code(C#)](https://github.com/zeyadsalah22/Design-Patterns/blob/main/BDP(C%23)/CommandPattern/Program.cs)
+  - Command Interface
+  - Concrete Command
+  - Invoker
+  - Receiver
+- [Command Pattern Code (JAVA)](https://github.com/zeyadsalah22/Design-Patterns/blob/main/Behavioral%20Design%20Patterns/src/Command_pattern.java)
+- [Command Pattern Code (C#)](https://github.com/zeyadsalah22/Design-Patterns/blob/main/BDP(C%23)/CommandPattern/Program.cs)
 - Class Diagram(C# implementation might have slight modifications)
+  <br>
   <img src="https://github.com/zeyadsalah22/Design-Patterns/blob/main/images/behavioral/command.png" width="400"/>
 
 #### Interpreter Pattern
-- **Explanation**: Given a language, defines a representation for its grammar along with an interpreter that uses the representation to interpret sentences in the language.
+- **Explanation**: Defines a grammatical representation for a language and provides an interpreter to interpret the sentences of the language.
 - **Main Points**:
-   - Defines a way to interpret and evaluate language grammar or expressions.
-   - Provides mechanism for evaluating sentences by representing grammar as set of classes.
-   - Involves defining hierarchies of expression classes, both terminal and non-terminal; tree structures are similar to composite pattern.
+  - Use when you need to evaluate sentences in a language.
+  - Ideal for designing language interpreters.
+  - Language syntax should be well-defined and concrete.
+  - Can be optimized for performance by caching results or combining with other patterns.
 - **Components**:
-   - Abstract Expression
-   - Terminal Expression
-   - Non-terminal Expression
-   - Context
-   - Client
-   - Interpreter
-- [Interpreter Pattern Code(JAVA)](https://github.com/zeyadsalah22/Design-Patterns/blob/main/Behavioral%20Design%20Patterns/src/Interpreter_pattern.java)
-- [Interpreter Pattern Code(C#)](https://github.com/zeyadsalah22/Design-Patterns/blob/main/BDP(C%23)/InterpreterP/Program.cs)
+  - Abstract Expression
+  - Terminal Expression
+  - Non-terminal Expression
+  - Context
+  - Client
+- [Interpreter Pattern Code (JAVA)](https://github.com/zeyadsalah22/Design-Patterns/blob/main/Behavioral%20Design%20Patterns/src/Interpreter_pattern.java)
+- [Interpreter Pattern Code (C#)](https://github.com/zeyadsalah22/Design-Patterns/blob/main/BDP(C%23)/InterpreterPattern/Program.cs)
 - Class Diagram(C# implementation might have slight modifications)
+  <br>
   <img src="https://github.com/zeyadsalah22/Design-Patterns/blob/main/images/behavioral/interpreter.png" width="400"/>
 
 #### Iterator Pattern
 - **Explanation**: Provides a way to access the elements of an aggregate object sequentially without exposing its underlying representation.
 - **Main Points**:
-   - Makes it possible to traverse elements of a collection without exposing its implementation.
-   - Encapsulates iteration logic, allowing you to change the way iteration is performed.
-   - Ensures clients do not depend on collection's implementation.
-   - Often uses multiple iterators.
+  - Useful for traversing complex data structures like lists, trees, etc.
+  - Hides the complexity of the aggregate object from the client.
+  - Each iterator provides a standard interface for accessing elements.
+  - Allows multiple iterations over the same aggregate without exposing its internal structure.
 - **Components**:
-   - Iterator Interface
-   - Concrete Iterator
-   - Aggregate Interface
-   - Concrete Aggregate
-- [Iterator Pattern Code(JAVA)](https://github.com/zeyadsalah22/Design-Patterns/blob/main/Behavioral%20Design%20Patterns/src/Iterator_pattern.java)
-- [Iterator Pattern Code(C#)](https://github.com/zeyadsalah22/Design-Patterns/blob/main/BDP(C%23)/IteratorPattern/Program.cs)
+  - Iterator Interface
+  - Concrete Iterator
+  - Aggregate Interface
+  - Concrete Aggregate
+  - Client
+- [Iterator Pattern Code (JAVA)](https://github.com/zeyadsalah22/Design-Patterns/blob/main/Behavioral%20Design%20Patterns/src/Iterator_pattern.java)
+- [Iterator Pattern Code (C#)](https://github.com/zeyadsalah22/Design-Patterns/blob/main/BDP(C%23)/IteratorPattern/Program.cs)
 - Class Diagram(C# implementation might have slight modifications)
+  <br>
   <img src="https://github.com/zeyadsalah22/Design-Patterns/blob/main/images/behavioral/iterator.png" width="400"/>
 
 #### Mediator Pattern
-- **Explanation**: Defines an object that encapsulates how a set of objects interact, promoting loose coupling by keeping objects from referring to each other explicitly.
+- **Explanation**: Defines an object that encapsulates how a set of objects interact. It promotes loose coupling by keeping objects from referring to each other explicitly.
 - **Main Points**:
-   - Mediates communication between classes that otherwise would be tightly coupled.
-   - Makes it easier to modify, extend, and debug.
-   - Useful in GUI applications and complex, interdependent systems.
+  - Provides a central point for handling communication between objects.
+  - Reduces the number of connections between objects, simplifying maintenance.
+  - Facilitates interaction between objects in a more controlled manner.
+  - Useful in complex dialog scenarios where multiple objects need to interact.
 - **Components**:
-   - Mediator Interface
-   - Concrete Mediator
-   - Colleague Interface
-   - Concrete Colleague
-- [Mediator Pattern Code(JAVA)](https://github.com/zeyadsalah22/Design-Patterns/blob/main/Behavioral%20Design%20Patterns/src/Mediator_pattern.java)
-- [Mediator Pattern Code(C#)](https://github.com/zeyadsalah22/Design-Patterns/blob/main/BDP(C%23)/MediatorPattern/Program.cs)
+  - Mediator Interface
+  - Concrete Mediator
+  - Colleague Classes
+- [Mediator Pattern Code (JAVA)](https://github.com/zeyadsalah22/Design-Patterns/blob/main/Behavioral%20Design%20Patterns/src/Mediator_pattern.java)
+- [Mediator Pattern Code (C#)](https://github.com/zeyadsalah22/Design-Patterns/blob/main/BDP(C%23)/MediatorPattern/Program.cs)
 - Class Diagram(C# implementation might have slight modifications)
+  <br>
   <img src="https://github.com/zeyadsalah22/Design-Patterns/blob/main/images/behavioral/mediator.png" width="400"/>
 
 #### Memento Pattern
-- **Explanation**: Without violating encapsulation, captures and externalizes an object’s internal state, so that the object can be restored to this state later.
+- **Explanation**: Provides the ability to restore an object to its previous state without revealing the details of its implementation.
 - **Main Points**:
-   - Provides a way to restore an object to its previous state.
-   - Used in conjunction with command pattern.
-   - Originator holds current state, caretaker keeps saved states, and memento holds state.
+  - Supports undo operations by restoring the state of an object.
+  - Encapsulates the state of an object in a memento object and allows restoring it later.
+  - Useful for implementing rollback features or saving the state of an object.
+  - Adds a level of abstraction between the caretaker and the originator.
 - **Components**:
-   - Originator
-   - Memento
-   - Caretaker
-- [Memento Pattern Code(JAVA)](https://github.com/zeyadsalah22/Design-Patterns/blob/main/Behavioral%20Design%20Patterns/src/Memento_pattern.java)
-- [Memento Pattern Code(C#)](https://github.com/zeyadsalah22/Design-Patterns/blob/main/BDP(C%23)/MementoPattern/Program.cs)
+  - Memento
+  - Originator
+  - Caretaker
+- [Memento Pattern Code (JAVA)](https://github.com/zeyadsalah22/Design-Patterns/blob/main/Behavioral%20Design%20Patterns/src/Memento_pattern.java)
+- [Memento Pattern Code (C#)](https://github.com/zeyadsalah22/Design-Patterns/blob/main/BDP(C%23)/MementoPattern/Program.cs)
 - Class Diagram(C# implementation might have slight modifications)
+  <br>
   <img src="https://github.com/zeyadsalah22/Design-Patterns/blob/main/images/behavioral/memento.png" width="400"/>
 
 #### Observer Pattern
-- **Explanation**: Defines a one-to-many dependency between objects, where a state change in one object results in all its dependents being notified and updated automatically.
+- **Explanation**: Defines a dependency between objects so that when one object changes state, all its dependents are notified and updated automatically.
 - **Main Points**:
-   - Establishes a mechanism to allow multiple objects to receive updates when another object changes state.
-   - Common in event handling and MVC (Model-View-Controller) architectures.
+  - Useful for creating a subscription mechanism where multiple observers need to be notified of changes.
+  - Ensures that observers are updated automatically without having to poll or manually check.
+  - Reduces tight coupling between the subject and its observers.
 - **Components**:
-   - Subject Interface
-   - Concrete Subject
-   - Observer Interface
-   - Concrete Observer
-- [Observer Pattern Code(JAVA)](https://github.com/zeyadsalah22/Design-Patterns/blob/main/Behavioral%20Design%20Patterns/src/Observer_pattern.java)
-- [Observer Pattern Code(C#)](https://github.com/zeyadsalah22/Design-Patterns/blob/main/BDP(C%23)/ObserverPattern/Program.cs)
+  - Subject
+  - Concrete Subject
+  - Observer
+  - Concrete Observer
+- [Observer Pattern Code (JAVA)](https://github.com/zeyadsalah22/Design-Patterns/blob/main/Behavioral%20Design%20Patterns/src/Observer_pattern.java)
+- [Observer Pattern Code (C#)](https://github.com/zeyadsalah22/Design-Patterns/blob/main/BDP(C%23)/ObserverPattern/Program.cs)
 - Class Diagram(C# implementation might have slight modifications)
+  <br>
   <img src="https://github.com/zeyadsalah22/Design-Patterns/blob/main/images/behavioral/observer.png" width="400"/>
 
 #### State Pattern
 - **Explanation**: Allows an object to alter its behavior when its internal state changes. The object will appear to change its class.
 - **Main Points**:
-   - Facilitates state-specific behavior.
-   - Makes state transitions explicit and easier to manage.
-   - Involves context and state objects.
+  - Useful when an object should change its behavior based on its state.
+  - Encapsulates state-specific behavior in separate state classes.
+  - Makes it easy to add new states without modifying existing code.
+  - State transitions are managed by the context object.
 - **Components**:
-   - Context
-   - State Interface
-   - Concrete State
-- [State Pattern Code(JAVA)](https://github.com/zeyadsalah22/Design-Patterns/blob/main/Behavioral%20Design%20Patterns/src/State_pattern.java)
-- [State Pattern Code(C#)](https://github.com/zeyadsalah22/Design-Patterns/blob/main/BDP(C%23)/StatePattern/Program.cs)
+  - Context
+  - State Interface
+  - Concrete States
+- [State Pattern Code (JAVA)](https://github.com/zeyadsalah22/Design-Patterns/blob/main/Behavioral%20Design%20Patterns/src/State_pattern.java)
+- [State Pattern Code (C#)](https://github.com/zeyadsalah22/Design-Patterns/blob/main/BDP(C%23)/StatePattern/Program.cs)
 - Class Diagram(C# implementation might have slight modifications)
+  <br>
   <img src="https://github.com/zeyadsalah22/Design-Patterns/blob/main/images/behavioral/state.png" width="400"/>
 
 #### Strategy Pattern
-- **Explanation**: Defines a family of algorithms, encapsulates each one, and makes them interchangeable. Lets the algorithm vary independently from clients that use it.
+- **Explanation**: Defines a family of algorithms, encapsulates each one, and makes them interchangeable. Strategy lets the algorithm vary independently from clients that use it.
 - **Main Points**:
-   - Extracts algorithms into separate classes.
-   - Useful for algorithm families with interchangeable and extensible behavior.
-   - Composes algorithms within context objects.
+  - Useful when you need to switch between different algorithms or strategies dynamically.
+  - Allows algorithm changes without affecting the client code.
+  - Encourages separation of concerns and promotes clean code principles.
+  - Strategy objects can be created dynamically or injected at runtime.
 - **Components**:
-   - Context
-   - Strategy Interface
-   - Concrete Strategy
-- [Strategy Pattern Code(JAVA)](https://github.com/zeyadsalah22/Design-Patterns/blob/main/Behavioral%20Design%20Patterns/src/Strategy_pattern.java)
-- [Strategy Pattern Code(C#)](https://github.com/zeyadsalah22/Design-Patterns/blob/main/BDP(C%23)/StrategyPattern/Program.cs)
+  - Context
+  - Strategy Interface
+  - Concrete Strategies
+- [Strategy Pattern Code (JAVA)](https://github.com/zeyadsalah22/Design-Patterns/blob/main/Behavioral%20Design%20Patterns/src/Strategy_pattern.java)
+- [Strategy Pattern Code (C#)](https://github.com/zeyadsalah22/Design-Patterns/blob/main/BDP(C%23)/StrategyPattern/Program.cs)
 - Class Diagram(C# implementation might have slight modifications)
+  <br>
   <img src="https://github.com/zeyadsalah22/Design-Patterns/blob/main/images/behavioral/strategy.png" width="400"/>
 
-#### State vs Strategy Patterns
-
-| State Pattern                                                             | Strategy Pattern                                                       |
-|---------------------------------------------------------------------------|------------------------------------------------------------------------|
-| States can be dependant as you can easily jump from one state to another. | Strategies are completely independent and unaware of each other.       |
-| About doing different things based on the state, hence result may vary.   | About having different implementations that accomplish the same thing. |
-
-
-
 #### Template Method Pattern
-- **Explanation**: Defines the skeleton of an algorithm in the superclass but lets subclasses override specific steps of the algorithm without changing its structure.
+- **Explanation**: Defines the skeleton of an algorithm in a method, deferring some steps to subclasses. Template Method lets subclasses redefine certain steps of an algorithm without changing the algorithm’s structure.
 - **Main Points**:
-   - Outlines algorithm steps in a base class.
-   - Allows subclasses to implement or override specific steps.
-   - Promotes code reuse and consistency.
+  - Provides a way to define a common algorithm structure with customizable steps.
+  - Ensures that the overall algorithm structure remains consistent while allowing individual steps to vary.
+  - Useful for code reuse and defining invariant parts of an algorithm.
 - **Components**:
-   - Abstract Class
-   - Concrete Class
-   - Template Method
-- [Template Method Pattern Code(JAVA)](https://github.com/zeyadsalah22/Design-Patterns/blob/main/Behavioral%20Design%20Patterns/src/Template_method.java)
-- [Template Method Pattern Code(C#)](https://github.com/zeyadsalah22/Design-Patterns/blob/main/BDP(C%23)/TemplatePattern/Program.cs)
+  - Abstract Class
+  - Concrete Class
+- [Template Method Pattern Code (JAVA)](https://github.com/zeyadsalah22/Design-Patterns/blob/main/Behavioral%20Design%20Patterns/src/Template_method.java)
+- [Template Method Pattern Code (C#)](https://github.com/zeyadsalah22/Design-Patterns/blob/main/BDP(C%23)/TemplateMethodPattern/Program.cs)
 - Class Diagram(C# implementation might have slight modifications)
+  <br>
   <img src="https://github.com/zeyadsalah22/Design-Patterns/blob/main/images/behavioral/template_method.png" width="400"/>
 
 #### Visitor Pattern
-- **Explanation**: Lets you define a new operation without changing the classes of the elements on which it operates.
+- **Explanation**: Lets you separate algorithms from the objects on which they operate. By using the Visitor Pattern, you can add new operations to existing object structures without modifying those structures.
 - **Main Points**:
-   - Allows adding operations to classes without modifying them.
-   - Uses double-dispatch technique for type safety.
-   - Facilitates operations across object structure.
+  - Useful when you need to perform operations on a set of objects with different types.
+  - Allows you to add new operations without modifying the objects’ classes.
+  - Each object accepts a visitor object and provides an appropriate method for it.
 - **Components**:
-   - Visitor Interface
-   - Concrete Visitor
-   - Element Interface
-   - Concrete Element
-   - Client
-- [Visitor Pattern Code(JAVA)](https://github.com/zeyadsalah22/Design-Patterns/blob/main/Behavioral%20Design%20Patterns/src/Visitor_pattern.java)
-- [Visitor Pattern Code(C#)](https://github.com/zeyadsalah22/Design-Patterns/tree/main/BDP(C%23)/VisitorPattern)
+  - Visitor Interface
+  - Concrete Visitor
+  - Element Interface
+  - Concrete Element
+  - Object Structure
+- [Visitor Pattern Code (JAVA)](https://github.com/zeyadsalah22/Design-Patterns/blob/main/Behavioral%20Design%20Patterns/src/Visitor_pattern.java)
+- [Visitor Pattern Code (C#)](https://github.com/zeyadsalah22/Design-Patterns/blob/main/BDP(C%23)/VisitorPattern/Program.cs)
 - Class Diagram(C# implementation might have slight modifications)
+  <br>
   <img src="https://github.com/zeyadsalah22/Design-Patterns/blob/main/images/behavioral/visitor.png" width="400"/>
 
 ### Structural Patterns
 
 #### Adapter Pattern
-- **Explanation**: Converts the interface of a class into another interface the clients expect. Adapter lets classes work together that couldn't otherwise because of incompatible interfaces.
+- **Explanation**: Converts the interface of a class into another interface clients expect. Adapter lets classes work together that couldn’t otherwise because of incompatible interfaces.
 - **Main Points**:
-   - Translates interface for compatibility.
-   - Promotes reuse of existing code.
-   - Useful for legacy integration.
+  - Useful when integrating with legacy code or third-party libraries.
+  - Provides a way to use existing classes with a new interface.
+  - Adapts the interface of a class to match the expected interface.
 - **Components**:
-   - Target Interface
-   - Adapter Class
-   - Adaptee Class
-   - Client
-- [Adapter Pattern Code(JAVA)](https://github.com/zeyadsalah22/Design-Patterns/blob/main/Structural%20Design%20Patterns/src/Adapter.java)
-- [Adapter Pattern Code(C#)](https://github.com/zeyadsalah22/Design-Patterns/blob/main/Structural%20Design%20Patterns(C%23)/AdapterPattern/Program.cs)
+  - Target
+  - Adapter
+  - Adaptee
+- [Adapter Pattern Code (JAVA)](https://github.com/zeyadsalah22/Design-Patterns/blob/main/Structural%20Design%20Patterns/src/Adapter_pattern.java)
+- [Adapter Pattern Code (C#)](https://github.com/zeyadsalah22/Design-Patterns/blob/main/SDP(C%23)/AdapterPattern/Program.cs)
 - Class Diagram(C# implementation might have slight modifications)
+  <br>
   <img src="https://github.com/zeyadsalah22/Design-Patterns/blob/main/images/structural/adapter.png" width="400"/>
 
 #### Bridge Pattern
-- **Explanation**: Decouples an abstraction from its implementation so that the two can vary independently.
+- **Explanation**: Decouples an abstraction from its implementation so that the two can vary independently. The Bridge Pattern allows you to change the implementation without changing the abstraction.
 - **Main Points**:
-   - Separates interface from implementation.
-   - Enables extensibility and flexibility.
-   - Useful for large-scale systems.
+  - Useful when you need to extend both abstractions and implementations independently.
+  - Separates the interface from its implementation.
+  - Allows new implementations to be added without modifying existing abstractions.
 - **Components**:
-   - Abstraction Interface
-   - Implementor Interface
-   - Concrete Implementor
-   - Refined Abstraction
-- [Bridge Pattern Code(JAVA)](https://github.com/zeyadsalah22/Design-Patterns/blob/main/Structural%20Design%20Patterns/src/Bridge.java)
-- [Bridge Pattern Code(C#)](https://github.com/zeyadsalah22/Design-Patterns/blob/main/Structural%20Design%20Patterns(C%23)/BridgePattern/Program.cs)
+  - Abstraction
+  - Refined Abstraction
+  - Implementor
+  - Concrete Implementor
+- [Bridge Pattern Code (JAVA)](https://github.com/zeyadsalah22/Design-Patterns/blob/main/Structural%20Design%20Patterns/src/Bridge_pattern.java)
+- [Bridge Pattern Code (C#)](https://github.com/zeyadsalah22/Design-Patterns/blob/main/SDP(C%23)/BridgePattern/Program.cs)
 - Class Diagram(C# implementation might have slight modifications)
+  <br>
   <img src="https://github.com/zeyadsalah22/Design-Patterns/blob/main/images/structural/bridge.png" width="400"/>
 
 #### Composite Pattern
-- **Explanation**: Composes objects into tree structures to represent part-whole hierarchies. Composite lets clients treat individual objects and compositions of objects uniformly.
+- **Explanation**: Composes objects into tree structures to represent part-whole hierarchies. Composite Pattern lets clients treat individual objects and compositions of objects uniformly.
 - **Main Points**:
-   - Models tree structures.
-   - Treats individual objects and compositions uniformly.
-   - Simplifies client code for complex hierarchies.
+  - Useful when you need to represent part-whole hierarchies.
+  - Allows you to treat individual objects and compositions of objects uniformly.
+  - Simplifies client code by using a common interface.
 - **Components**:
-   - Component Interface
-   - Composite Class
-   - Leaf Class
-- [Composite Pattern Code(JAVA)](https://github.com/zeyadsalah22/Design-Patterns/blob/main/Structural%20Design%20Patterns/src/Composite.java)
-- [Composite Pattern Code(C#)](https://github.com/zeyadsalah22/Design-Patterns/blob/main/Structural%20Design%20Patterns(C%23)/CompositePattern/Program.cs)
+  - Component
+  - Leaf
+  - Composite
+- [Composite Pattern Code (JAVA)](https://github.com/zeyadsalah22/Design-Patterns/blob/main/Structural%20Design%20Patterns/src/Composite_pattern.java)
+- [Composite Pattern Code (C#)](https://github.com/zeyadsalah22/Design-Patterns/blob/main/SDP(C%23)/CompositePattern/Program.cs)
 - Class Diagram(C# implementation might have slight modifications)
+  <br>
   <img src="https://github.com/zeyadsalah22/Design-Patterns/blob/main/images/structural/composite.png" width="400"/>
 
 #### Decorator Pattern
-- **Explanation**: Attaches additional responsibilities to an object dynamically. Decorators provide a flexible alternative to subclassing for extending functionality.
+- **Explanation**: Adds behavior to objects dynamically by placing them inside special wrapper objects that contain the behaviors.
 - **Main Points**:
-   - Extends functionality dynamically.
-   - Promotes composition over inheritance.
-   - Useful for adding features to objects.
+  - Useful when you need to add responsibilities to objects dynamically and transparently.
+  - Allows you to extend the functionality of objects without altering their structure.
+  - Decorators can be stacked to combine functionalities.
 - **Components**:
-   - Component Interface
-   - Concrete Component
-   - Decorator Class
-   - Concrete Decorator
-- [Decorator Pattern Code(JAVA)](https://github.com/zeyadsalah22/Design-Patterns/blob/main/Structural%20Design%20Patterns/src/Decorator.java)
-- [Decorator Pattern Code(C#)](https://github.com/zeyadsalah22/Design-Patterns/blob/main/Structural%20Design%20Patterns(C%23)/DecoratorPattern/Program.cs)
+  - Component
+  - Concrete Component
+  - Decorator
+  - Concrete Decorators
+- [Decorator Pattern Code (JAVA)](https://github.com/zeyadsalah22/Design-Patterns/blob/main/Structural%20Design%20Patterns/src/Decorator_pattern.java)
+- [Decorator Pattern Code (C#)](https://github.com/zeyadsalah22/Design-Patterns/blob/main/SDP(C%23)/DecoratorPattern/Program.cs)
 - Class Diagram(C# implementation might have slight modifications)
+  <br>
   <img src="https://github.com/zeyadsalah22/Design-Patterns/blob/main/images/structural/decorator.png" width="400"/>
 
 #### Facade Pattern
-- **Explanation**: Provides a unified interface to a set of interfaces in a subsystem. Facade defines a higher-level interface that makes the subsystem easier to use.
+- **Explanation**: Provides a unified interface to a set of interfaces in a subsystem. The Facade Pattern defines a higher-level interface that makes the subsystem easier to use.
 - **Main Points**:
-   - Simplifies interactions with complex systems.
-   - Promotes loose coupling.
-   - Ideal for subsystems with many dependencies.
+  - Useful when you need to provide a simplified interface to a complex subsystem.
+  - Hides the complexities of the subsystem and provides a clean interface.
+  - Facilitates usage by reducing the number of interactions with the subsystem.
 - **Components**:
-   - Facade Class
-   - Subsystem Classes
-- [Facade Pattern Code(JAVA)](https://github.com/zeyadsalah22/Design-Patterns/blob/main/Structural%20Design%20Patterns/src/Facade.java)
-- [Facade Pattern Code(C#)](https://github.com/zeyadsalah22/Design-Patterns/blob/main/Structural%20Design%20Patterns(C%23)/FacadePattern/Program.cs)
+  - Facade
+  - Subsystems
+- [Facade Pattern Code (JAVA)](https://github.com/zeyadsalah22/Design-Patterns/blob/main/Structural%20Design%20Patterns/src/Facade_pattern.java)
+- [Facade Pattern Code (C#)](https://github.com/zeyadsalah22/Design-Patterns/blob/main/SDP(C%23)/FacadePattern/Program.cs)
 - Class Diagram(C# implementation might have slight modifications)
+  <br>
   <img src="https://github.com/zeyadsalah22/Design-Patterns/blob/main/images/structural/facade.png" width="400"/>
 
 #### Flyweight Pattern
-- **Explanation**: Reduces the cost of creating and manipulating a large number of similar objects by sharing common parts of the state among multiple objects.
+- **Explanation**: Uses sharing to support large numbers of fine-grained objects efficiently. The Flyweight Pattern reduces the memory footprint of objects.
 - **Main Points**:
-   - Minimizes memory usage.
-   - Shares intrinsic state, handles extrinsic state externally.
-   - Suitable for large-scale object creation.
+  - Useful when you need to manage a large number of objects that share common state.
+  - Stores intrinsic state shared across multiple objects and extrinsic state that varies between objects.
+  - Reduces the number of objects created by sharing common parts.
 - **Components**:
-   - Flyweight Interface
-   - Concrete Flyweight
-   - Flyweight Factory
-   - Client
-- [Flyweight Pattern Code(JAVA)](https://github.com/zeyadsalah22/Design-Patterns/blob/main/Structural%20Design%20Patterns/src/Flyweight.java)
-- [Flyweight Pattern Code(C#)](https://github.com/zeyadsalah22/Design-Patterns/blob/main/Structural%20Design%20Patterns(C%23)/FlyWeightPattern/Program.cs)
+  - Flyweight
+  - Concrete Flyweight
+  - Flyweight Factory
+- [Flyweight Pattern Code (JAVA)](https://github.com/zeyadsalah22/Design-Patterns/blob/main/Structural%20Design%20Patterns/src/Flyweight_pattern.java)
+- [Flyweight Pattern Code (C#)](https://github.com/zeyadsalah22/Design-Patterns/blob/main/SDP(C%23)/FlyweightPattern/Program.cs)
 - Class Diagram(C# implementation might have slight modifications)
+  <br>
   <img src="https://github.com/zeyadsalah22/Design-Patterns/blob/main/images/structural/flyweight.png" width="400"/>
 
 #### Proxy Pattern
-- **Explanation**: Provides a surrogate or placeholder for another object to control access to it.
+- **Explanation**: Provides a surrogate or placeholder for another object to control access to it. The Proxy Pattern allows you to control access, create, and manage an object indirectly.
 - **Main Points**:
-   - Controls access to an object.
-   - Can provide additional functionality like caching or logging.
-   - Useful for lazy initialization, access control, and distributed systems.
+  - Useful when you need to control access to an object or add additional functionality without modifying the object itself.
+  - Types of proxies:
+    - Virtual Proxy
+    - Protection Proxy
+    - Remote Proxy
+  - Implements different proxy types to add control layers.
 - **Components**:
-   - Subject Interface
-   - Real Subject
-   - Proxy Class
-- [Proxy Pattern Code(JAVA)](https://github.com/zeyadsalah22/Design-Patterns/blob/main/Structural%20Design%20Patterns/src/Proxy.java)
-- [Proxy Pattern Code(C#)](https://github.com/zeyadsalah22/Design-Patterns/blob/main/Structural%20Design%20Patterns(C%23)/ProxyPattern/Program.cs)
+  - Subject
+  - Proxy
+  - Real Subject
+- [Proxy Pattern Code (JAVA)](https://github.com/zeyadsalah22/Design-Patterns/blob/main/Structural%20Design%20Patterns/src/Proxy_pattern.java)
+- [Proxy Pattern Code (C#)](https://github.com/zeyadsalah22/Design-Patterns/blob/main/SDP(C%23)/ProxyPattern/Program.cs)
 - Class Diagram(C# implementation might have slight modifications)
+  <br>
   <img src="https://github.com/zeyadsalah22/Design-Patterns/blob/main/images/structural/proxy.png" width="400"/>
-
 ## Resources
-
 1. [GeeksforGeeks - Software Design Patterns](https://www.geeksforgeeks.org/software-design-patterns/)
 2. [YouTube Playlist - Design Patterns](https://youtube.com/playlist?list=PLlsmxlJgn1HJpa28yHzkBmUY-Ty71ZUGc&si=-O4aAbHaeI5LxWLA)
 3. [GeeksforGeeks - Interview Questions](https://www.geeksforgeeks.org/top-design-patterns-interview-questions/)
@@ -440,3 +455,16 @@ By using design patterns, you can make your code more flexible, reusable, and ea
 7. [Bytehide - Interview Questions(C#)](https://www.bytehide.com/blog/csharp-design-patterns-interview-questions-experienced)
 8. [Tutorialspoint - MCQ Quiz](https://www.tutorialspoint.com/design_pattern/design_pattern_online_quiz.htm)
 8. [Sanfoundry - MCQ Questions](https://www.sanfoundry.com/software-engg-mcqs-software-design-pattern/)
+
+## Languages & Tools
+![Java](https://img.shields.io/badge/Java-007396?style=flat&logo=java&logoColor=white)
+![C#](https://img.shields.io/badge/C%23-239120?style=flat&logo=c-sharp&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat&logo=github-actions&logoColor=white)
+![.NET](https://img.shields.io/badge/.NET-512BD4?style=flat&logo=dotnet&logoColor=white)
+
+## Contact
+For questions or suggestions, feel free to open an issue on the [GitHub repository](https://github.com/zeyadsalah22/Design-Patterns).
+
+---
+
+Feel free to contribute to this repository and make suggestions to improve the code and documentation. Happy coding!
