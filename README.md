@@ -56,8 +56,9 @@ By using design patterns, you can make your code more flexible, reusable, and ea
    - Static member
    - Private constructor
    - Static factory method
-- [Singleton Pattern Code](https://github.com/zeyadsalah22/Design-Patterns/blob/main/Creational%20Design%20Patterns/src/Singleton.java)
-- Class Diagram
+- [Singleton Pattern Code(JAVA)](https://github.com/zeyadsalah22/Design-Patterns/blob/main/Creational%20Design%20Patterns/src/Singleton.java)
+- [Singleton Pattern Code(C#)](https://github.com/zeyadsalah22/Design-Patterns/blob/main/Creational%20Design%20Patterns(C%23)/Singleton/Program.cs)
+- Class Diagram(C# implementation might have slight modifications)
   <img src="https://github.com/zeyadsalah22/Design-Patterns/blob/main/images/creational/singleton.png" width="400"/>
 
 #### Factory Method Pattern
@@ -72,9 +73,10 @@ By using design patterns, you can make your code more flexible, reusable, and ea
    - Concrete Creator
    - Product
    - Concrete Product
-- [Factory Method Pattern Code](https://github.com/zeyadsalah22/Design-Patterns/blob/main/Creational%20Design%20Patterns/src/Factory_method.java)
-- Class Diagram
-  <img src="https://github.com/zeyadsalah22/Design-Patterns/blob/main/images/creational/factory.png" width="400"/>
+- [Factory Method Pattern Code(JAVA)](https://github.com/zeyadsalah22/Design-Patterns/blob/main/Creational%20Design%20Patterns/src/Factory_method.java)
+- [Factory Method Pattern Code(C#)](https://github.com/zeyadsalah22/Design-Patterns/blob/main/Creational%20Design%20Patterns(C%23)/FactoryMethod/Program.cs)
+- Class Diagram(C# implementation might have slight modifications)
+<img src="https://github.com/zeyadsalah22/Design-Patterns/blob/main/images/creational/factory.png" width="400"/>
 
 #### Abstract Factory Pattern
 - **Explanation**: Provides an interface for creating families of related or dependent objects without specifying their concrete classes.
@@ -89,8 +91,9 @@ By using design patterns, you can make your code more flexible, reusable, and ea
    - Abstract Products
    - Concrete Products
    - Client
-- [Abstract Factory Pattern Code](https://github.com/zeyadsalah22/Design-Patterns/blob/main/Creational%20Design%20Patterns/src/Abstract_Factory.java)
-- Class Diagram
+- [Abstract Factory Pattern Code(JAVA)](https://github.com/zeyadsalah22/Design-Patterns/blob/main/Creational%20Design%20Patterns/src/Abstract_Factory.java)
+- [Abstract Factory Pattern Code(C#)](https://github.com/zeyadsalah22/Design-Patterns/blob/main/Creational%20Design%20Patterns(C%23)/AbstractFactory/Program.cs)
+- Class Diagram(C# implementation might have slight modifications)
   <img src="https://github.com/zeyadsalah22/Design-Patterns/blob/main/images/creational/abstractfactory.png" width="400"/>
 
 #### Builder Pattern
@@ -105,8 +108,9 @@ By using design patterns, you can make your code more flexible, reusable, and ea
    - Concrete Builder
    - Director
    - Client
-- [Builder Pattern Code](https://github.com/zeyadsalah22/Design-Patterns/blob/main/Creational%20Design%20Patterns/src/Builder.java)
-- Class Diagram
+- [Builder Pattern Code(JAVA)](https://github.com/zeyadsalah22/Design-Patterns/blob/main/Creational%20Design%20Patterns/src/Builder.java)
+- [Builder Pattern Code(C#)](https://github.com/zeyadsalah22/Design-Patterns/blob/main/Creational%20Design%20Patterns(C%23)/Builder/Program.cs)
+- Class Diagram(C# implementation might have slight modifications)
   <img src="https://github.com/zeyadsalah22/Design-Patterns/blob/main/images/creational/builder.png" width="400"/>
 
 #### Prototype Pattern
@@ -121,8 +125,9 @@ By using design patterns, you can make your code more flexible, reusable, and ea
    - Concrete Product
    - Client
    - Clone Method
-- [Prototype Pattern Code](https://github.com/zeyadsalah22/Design-Patterns/blob/main/Creational%20Design%20Patterns/src/Prototype.java)
-- Class Diagram
+- [Prototype Pattern Code(JAVA)](https://github.com/zeyadsalah22/Design-Patterns/blob/main/Creational%20Design%20Patterns/src/Prototype.java)
+- [Prototype Pattern Code(C#)](https://github.com/zeyadsalah22/Design-Patterns/blob/main/Creational%20Design%20Patterns(C%23)/ProtoType/Program.cs)
+- Class Diagram(C# implementation might have slight modifications)
   <img src="https://github.com/zeyadsalah22/Design-Patterns/blob/main/images/creational/prototype.png" width="400"/>
 
 ### Behavioral Patterns
@@ -138,8 +143,9 @@ By using design patterns, you can make your code more flexible, reusable, and ea
    - Handler Interface or abstract class
    - Concrete Handler
    - Client
-- [Chain of Responsibility Pattern Code](https://github.com/zeyadsalah22/Design-Patterns/blob/main/Behavioral%20Design%20Patterns/src/Chain_responsibility.java)
-- Class Diagram
+- [Chain of Responsibility Pattern Code(JAVA)](https://github.com/zeyadsalah22/Design-Patterns/blob/main/Behavioral%20Design%20Patterns/src/Chain_responsibility.java)
+- [Chain of Responsibility Pattern Code(C#)](https://github.com/zeyadsalah22/Design-Patterns/blob/main/BDP(C%23)/ChainResponsibilityPattern/Program.cs)
+- Class Diagram(C# implementation might have slight modifications)
   <img src="https://github.com/zeyadsalah22/Design-Patterns/blob/main/images/behavioral/chainofresponsibility.png" width="400"/>
 
 #### Command Pattern
@@ -156,8 +162,9 @@ By using design patterns, you can make your code more flexible, reusable, and ea
    - Concrete Command
    - Invoker
    - Receiver
-- [Command Pattern Code](https://github.com/zeyadsalah22/Design-Patterns/blob/main/Behavioral%20Design%20Patterns/src/Command_pattern.java)
-- Class Diagram
+- [Command Pattern Code(JAVA)](https://github.com/zeyadsalah22/Design-Patterns/blob/main/Behavioral%20Design%20Patterns/src/Command_pattern.java)
+- [Command Pattern Code(C#)](https://github.com/zeyadsalah22/Design-Patterns/blob/main/BDP(C%23)/CommandPattern/Program.cs)
+- Class Diagram(C# implementation might have slight modifications)
   <img src="https://github.com/zeyadsalah22/Design-Patterns/blob/main/images/behavioral/command.png" width="400"/>
 
 #### Interpreter Pattern
@@ -173,8 +180,9 @@ By using design patterns, you can make your code more flexible, reusable, and ea
    - Context
    - Client
    - Interpreter
-- [Interpreter Pattern Code](https://github.com/zeyadsalah22/Design-Patterns/blob/main/Behavioral%20Design%20Patterns/src/Interpreter_pattern.java)
-- Class Diagram
+- [Interpreter Pattern Code(JAVA)](https://github.com/zeyadsalah22/Design-Patterns/blob/main/Behavioral%20Design%20Patterns/src/Interpreter_pattern.java)
+- [Interpreter Pattern Code(C#)](https://github.com/zeyadsalah22/Design-Patterns/blob/main/BDP(C%23)/InterpreterP/Program.cs)
+- Class Diagram(C# implementation might have slight modifications)
   <img src="https://github.com/zeyadsalah22/Design-Patterns/blob/main/images/behavioral/interpreter.png" width="400"/>
 
 #### Iterator Pattern
@@ -189,8 +197,9 @@ By using design patterns, you can make your code more flexible, reusable, and ea
    - Concrete Iterator
    - Aggregate Interface
    - Concrete Aggregate
-- [Iterator Pattern Code](https://github.com/zeyadsalah22/Design-Patterns/blob/main/Behavioral%20Design%20Patterns/src/Iterator_pattern.java)
-- Class Diagram
+- [Iterator Pattern Code(JAVA)](https://github.com/zeyadsalah22/Design-Patterns/blob/main/Behavioral%20Design%20Patterns/src/Iterator_pattern.java)
+- [Iterator Pattern Code(C#)](https://github.com/zeyadsalah22/Design-Patterns/blob/main/BDP(C%23)/IteratorPattern/Program.cs)
+- Class Diagram(C# implementation might have slight modifications)
   <img src="https://github.com/zeyadsalah22/Design-Patterns/blob/main/images/behavioral/iterator.png" width="400"/>
 
 #### Mediator Pattern
@@ -204,8 +213,9 @@ By using design patterns, you can make your code more flexible, reusable, and ea
    - Concrete Mediator
    - Colleague Interface
    - Concrete Colleague
-- [Mediator Pattern Code](https://github.com/zeyadsalah22/Design-Patterns/blob/main/Behavioral%20Design%20Patterns/src/Mediator_pattern.java)
-- Class Diagram
+- [Mediator Pattern Code(JAVA)](https://github.com/zeyadsalah22/Design-Patterns/blob/main/Behavioral%20Design%20Patterns/src/Mediator_pattern.java)
+- [Mediator Pattern Code(C#)](https://github.com/zeyadsalah22/Design-Patterns/blob/main/BDP(C%23)/MediatorPattern/Program.cs)
+- Class Diagram(C# implementation might have slight modifications)
   <img src="https://github.com/zeyadsalah22/Design-Patterns/blob/main/images/behavioral/mediator.png" width="400"/>
 
 #### Memento Pattern
@@ -218,8 +228,9 @@ By using design patterns, you can make your code more flexible, reusable, and ea
    - Originator
    - Memento
    - Caretaker
-- [Memento Pattern Code](https://github.com/zeyadsalah22/Design-Patterns/blob/main/Behavioral%20Design%20Patterns/src/Memento_pattern.java)
-- Class Diagram
+- [Memento Pattern Code(JAVA)](https://github.com/zeyadsalah22/Design-Patterns/blob/main/Behavioral%20Design%20Patterns/src/Memento_pattern.java)
+- [Memento Pattern Code(C#)](https://github.com/zeyadsalah22/Design-Patterns/blob/main/BDP(C%23)/MementoPattern/Program.cs)
+- Class Diagram(C# implementation might have slight modifications)
   <img src="https://github.com/zeyadsalah22/Design-Patterns/blob/main/images/behavioral/memento.png" width="400"/>
 
 #### Observer Pattern
@@ -232,8 +243,9 @@ By using design patterns, you can make your code more flexible, reusable, and ea
    - Concrete Subject
    - Observer Interface
    - Concrete Observer
-- [Observer Pattern Code](https://github.com/zeyadsalah22/Design-Patterns/blob/main/Behavioral%20Design%20Patterns/src/Observer_pattern.java)
-- Class Diagram
+- [Observer Pattern Code(JAVA)](https://github.com/zeyadsalah22/Design-Patterns/blob/main/Behavioral%20Design%20Patterns/src/Observer_pattern.java)
+- [Observer Pattern Code(C#)](https://github.com/zeyadsalah22/Design-Patterns/blob/main/BDP(C%23)/ObserverPattern/Program.cs)
+- Class Diagram(C# implementation might have slight modifications)
   <img src="https://github.com/zeyadsalah22/Design-Patterns/blob/main/images/behavioral/observer.png" width="400"/>
 
 #### State Pattern
@@ -246,8 +258,9 @@ By using design patterns, you can make your code more flexible, reusable, and ea
    - Context
    - State Interface
    - Concrete State
-- [State Pattern Code](https://github.com/zeyadsalah22/Design-Patterns/blob/main/Behavioral%20Design%20Patterns/src/State_pattern.java)
-- Class Diagram
+- [State Pattern Code(JAVA)](https://github.com/zeyadsalah22/Design-Patterns/blob/main/Behavioral%20Design%20Patterns/src/State_pattern.java)
+- [State Pattern Code(C#)](https://github.com/zeyadsalah22/Design-Patterns/blob/main/BDP(C%23)/StatePattern/Program.cs)
+- Class Diagram(C# implementation might have slight modifications)
   <img src="https://github.com/zeyadsalah22/Design-Patterns/blob/main/images/behavioral/state.png" width="400"/>
 
 #### Strategy Pattern
@@ -260,8 +273,9 @@ By using design patterns, you can make your code more flexible, reusable, and ea
    - Context
    - Strategy Interface
    - Concrete Strategy
-- [Strategy Pattern Code](https://github.com/zeyadsalah22/Design-Patterns/blob/main/Behavioral%20Design%20Patterns/src/Strategy_pattern.java)
-- Class Diagram
+- [Strategy Pattern Code(JAVA)](https://github.com/zeyadsalah22/Design-Patterns/blob/main/Behavioral%20Design%20Patterns/src/Strategy_pattern.java)
+- [Strategy Pattern Code(C#)](https://github.com/zeyadsalah22/Design-Patterns/blob/main/BDP(C%23)/StrategyPattern/Program.cs)
+- Class Diagram(C# implementation might have slight modifications)
   <img src="https://github.com/zeyadsalah22/Design-Patterns/blob/main/images/behavioral/strategy.png" width="400"/>
 
 #### State vs Strategy Patterns
@@ -283,8 +297,9 @@ By using design patterns, you can make your code more flexible, reusable, and ea
    - Abstract Class
    - Concrete Class
    - Template Method
-- [Template Method Pattern Code](https://github.com/zeyadsalah22/Design-Patterns/blob/main/Behavioral%20Design%20Patterns/src/Template_method.java)
-- Class Diagram
+- [Template Method Pattern Code(JAVA)](https://github.com/zeyadsalah22/Design-Patterns/blob/main/Behavioral%20Design%20Patterns/src/Template_method.java)
+- [Template Method Pattern Code(C#)](https://github.com/zeyadsalah22/Design-Patterns/blob/main/BDP(C%23)/TemplatePattern/Program.cs)
+- Class Diagram(C# implementation might have slight modifications)
   <img src="https://github.com/zeyadsalah22/Design-Patterns/blob/main/images/behavioral/template_method.png" width="400"/>
 
 #### Visitor Pattern
@@ -299,8 +314,9 @@ By using design patterns, you can make your code more flexible, reusable, and ea
    - Element Interface
    - Concrete Element
    - Client
-- [Visitor Pattern Code](https://github.com/zeyadsalah22/Design-Patterns/blob/main/Behavioral%20Design%20Patterns/src/Visitor_pattern.java)
-- Class Diagram
+- [Visitor Pattern Code(JAVA)](https://github.com/zeyadsalah22/Design-Patterns/blob/main/Behavioral%20Design%20Patterns/src/Visitor_pattern.java)
+- [Visitor Pattern Code(C#)](https://github.com/zeyadsalah22/Design-Patterns/tree/main/BDP(C%23)/VisitorPattern)
+- Class Diagram(C# implementation might have slight modifications)
   <img src="https://github.com/zeyadsalah22/Design-Patterns/blob/main/images/behavioral/visitor.png" width="400"/>
 
 ### Structural Patterns
@@ -316,8 +332,9 @@ By using design patterns, you can make your code more flexible, reusable, and ea
    - Adapter Class
    - Adaptee Class
    - Client
-- [Adapter Pattern Code](https://github.com/zeyadsalah22/Design-Patterns/blob/main/Structural%20Design%20Patterns/src/Adapter.java)
-- Class Diagram
+- [Adapter Pattern Code(JAVA)](https://github.com/zeyadsalah22/Design-Patterns/blob/main/Structural%20Design%20Patterns/src/Adapter.java)
+- [Adapter Pattern Code(C#)](https://github.com/zeyadsalah22/Design-Patterns/blob/main/Structural%20Design%20Patterns(C%23)/AdapterPattern/Program.cs)
+- Class Diagram(C# implementation might have slight modifications)
   <img src="https://github.com/zeyadsalah22/Design-Patterns/blob/main/images/structural/adapter.png" width="400"/>
 
 #### Bridge Pattern
@@ -331,8 +348,9 @@ By using design patterns, you can make your code more flexible, reusable, and ea
    - Implementor Interface
    - Concrete Implementor
    - Refined Abstraction
-- [Bridge Pattern Code](https://github.com/zeyadsalah22/Design-Patterns/blob/main/Structural%20Design%20Patterns/src/Bridge.java)
-- Class Diagram
+- [Bridge Pattern Code(JAVA)](https://github.com/zeyadsalah22/Design-Patterns/blob/main/Structural%20Design%20Patterns/src/Bridge.java)
+- [Bridge Pattern Code(C#)](https://github.com/zeyadsalah22/Design-Patterns/blob/main/Structural%20Design%20Patterns(C%23)/BridgePattern/Program.cs)
+- Class Diagram(C# implementation might have slight modifications)
   <img src="https://github.com/zeyadsalah22/Design-Patterns/blob/main/images/structural/bridge.png" width="400"/>
 
 #### Composite Pattern
@@ -345,8 +363,9 @@ By using design patterns, you can make your code more flexible, reusable, and ea
    - Component Interface
    - Composite Class
    - Leaf Class
-- [Composite Pattern Code](https://github.com/zeyadsalah22/Design-Patterns/blob/main/Structural%20Design%20Patterns/src/Composite.java)
-- Class Diagram
+- [Composite Pattern Code(JAVA)](https://github.com/zeyadsalah22/Design-Patterns/blob/main/Structural%20Design%20Patterns/src/Composite.java)
+- [Composite Pattern Code(C#)](https://github.com/zeyadsalah22/Design-Patterns/blob/main/Structural%20Design%20Patterns(C%23)/CompositePattern/Program.cs)
+- Class Diagram(C# implementation might have slight modifications)
   <img src="https://github.com/zeyadsalah22/Design-Patterns/blob/main/images/structural/composite.png" width="400"/>
 
 #### Decorator Pattern
@@ -360,8 +379,9 @@ By using design patterns, you can make your code more flexible, reusable, and ea
    - Concrete Component
    - Decorator Class
    - Concrete Decorator
-- [Decorator Pattern Code](https://github.com/zeyadsalah22/Design-Patterns/blob/main/Structural%20Design%20Patterns/src/Decorator.java)
-- Class Diagram
+- [Decorator Pattern Code(JAVA)](https://github.com/zeyadsalah22/Design-Patterns/blob/main/Structural%20Design%20Patterns/src/Decorator.java)
+- [Decorator Pattern Code(C#)](https://github.com/zeyadsalah22/Design-Patterns/blob/main/Structural%20Design%20Patterns(C%23)/DecoratorPattern/Program.cs)
+- Class Diagram(C# implementation might have slight modifications)
   <img src="https://github.com/zeyadsalah22/Design-Patterns/blob/main/images/structural/decorator.png" width="400"/>
 
 #### Facade Pattern
@@ -373,8 +393,9 @@ By using design patterns, you can make your code more flexible, reusable, and ea
 - **Components**:
    - Facade Class
    - Subsystem Classes
-- [Facade Pattern Code](https://github.com/zeyadsalah22/Design-Patterns/blob/main/Structural%20Design%20Patterns/src/Facade.java)
-- Class Diagram
+- [Facade Pattern Code(JAVA)](https://github.com/zeyadsalah22/Design-Patterns/blob/main/Structural%20Design%20Patterns/src/Facade.java)
+- [Facade Pattern Code(C#)](https://github.com/zeyadsalah22/Design-Patterns/blob/main/Structural%20Design%20Patterns(C%23)/FacadePattern/Program.cs)
+- Class Diagram(C# implementation might have slight modifications)
   <img src="https://github.com/zeyadsalah22/Design-Patterns/blob/main/images/structural/facade.png" width="400"/>
 
 #### Flyweight Pattern
@@ -388,8 +409,9 @@ By using design patterns, you can make your code more flexible, reusable, and ea
    - Concrete Flyweight
    - Flyweight Factory
    - Client
-- [Flyweight Pattern Code](https://github.com/zeyadsalah22/Design-Patterns/blob/main/Structural%20Design%20Patterns/src/Flyweight.java)
-- Class Diagram
+- [Flyweight Pattern Code(JAVA)](https://github.com/zeyadsalah22/Design-Patterns/blob/main/Structural%20Design%20Patterns/src/Flyweight.java)
+- [Flyweight Pattern Code(C#)](https://github.com/zeyadsalah22/Design-Patterns/blob/main/Structural%20Design%20Patterns(C%23)/FlyWeightPattern/Program.cs)
+- Class Diagram(C# implementation might have slight modifications)
   <img src="https://github.com/zeyadsalah22/Design-Patterns/blob/main/images/structural/flyweight.png" width="400"/>
 
 #### Proxy Pattern
@@ -402,8 +424,9 @@ By using design patterns, you can make your code more flexible, reusable, and ea
    - Subject Interface
    - Real Subject
    - Proxy Class
-- [Proxy Pattern Code](https://github.com/zeyadsalah22/Design-Patterns/blob/main/Structural%20Design%20Patterns/src/Proxy.java)
-- Class Diagram
+- [Proxy Pattern Code(JAVA)](https://github.com/zeyadsalah22/Design-Patterns/blob/main/Structural%20Design%20Patterns/src/Proxy.java)
+- [Proxy Pattern Code(C#)](https://github.com/zeyadsalah22/Design-Patterns/blob/main/Structural%20Design%20Patterns(C%23)/ProxyPattern/Program.cs)
+- Class Diagram(C# implementation might have slight modifications)
   <img src="https://github.com/zeyadsalah22/Design-Patterns/blob/main/images/structural/proxy.png" width="400"/>
 
 ## Resources
