@@ -175,10 +175,9 @@ By using design patterns, you can make your code more flexible, reusable, and ea
 #### Interpreter Pattern
 - **Explanation**: Defines a grammatical representation for a language and provides an interpreter to interpret the sentences of the language.
 - **Main Points**:
-  - Use when you need to evaluate sentences in a language.
-  - Ideal for designing language interpreters.
-  - Language syntax should be well-defined and concrete.
-  - Can be optimized for performance by caching results or combining with other patterns.
+ - Defines a way to interpret and evaluate language grammar or expressions.
+ - Provides mechanism for evaluating sentences by representing grammar as set of classes.
+ - Involves defining hierarchies of expression classes, both terminal and non-terminal, tree structures are similar to composite pattern.
 - **Components**:
   - Abstract Expression
   - Terminal Expression
@@ -194,10 +193,9 @@ By using design patterns, you can make your code more flexible, reusable, and ea
 #### Iterator Pattern
 - **Explanation**: Provides a way to access the elements of an aggregate object sequentially without exposing its underlying representation.
 - **Main Points**:
-  - Useful for traversing complex data structures like lists, trees, etc.
-  - Hides the complexity of the aggregate object from the client.
-  - Each iterator provides a standard interface for accessing elements.
-  - Allows multiple iterations over the same aggregate without exposing its internal structure.
+   - Reduces traversal code duplication.
+   - Applies single responsibility and open-closed principles, each iteration algorithm is extracted in separate class and new iterators can be added with modifying existing ones.
+   - Encapsulates the details of complex data structures by exposing simple methods to access the collection elements.
 - **Components**:
   - Iterator Interface
   - Concrete Iterator
@@ -213,10 +211,9 @@ By using design patterns, you can make your code more flexible, reusable, and ea
 #### Mediator Pattern
 - **Explanation**: Defines an object that encapsulates how a set of objects interact. It promotes loose coupling by keeping objects from referring to each other explicitly.
 - **Main Points**:
-  - Provides a central point for handling communication between objects.
-  - Reduces the number of connections between objects, simplifying maintenance.
-  - Facilitates interaction between objects in a more controlled manner.
-  - Useful in complex dialog scenarios where multiple objects need to interact.
+  - Extract all relationships between classes into a separate class.
+  - Allows to reuse any component in a different app, making it easy to define new ways of communication between components by introducing new mediator class.
+  - Classes will be decoupled from one another as they will communicate directly via mediator.
 - **Components**:
   - Mediator Interface
   - Concrete Mediator
@@ -230,10 +227,9 @@ By using design patterns, you can make your code more flexible, reusable, and ea
 #### Memento Pattern
 - **Explanation**: Provides the ability to restore an object to its previous state without revealing the details of its implementation.
 - **Main Points**:
-  - Supports undo operations by restoring the state of an object.
-  - Encapsulates the state of an object in a memento object and allows restoring it later.
-  - Useful for implementing rollback features or saving the state of an object.
-  - Adds a level of abstraction between the caretaker and the originator.
+  - Lets you save and reuse the states of an object without revealing the details of its implementations, to do that this pattern makes full copies of object's states.
+  - Makes the original object's data safe and secure.
+  - Delegates the creation of object's state snapshot to the object itself.
 - **Components**:
   - Memento
   - Originator
@@ -247,9 +243,10 @@ By using design patterns, you can make your code more flexible, reusable, and ea
 #### Observer Pattern
 - **Explanation**: Defines a dependency between objects so that when one object changes state, all its dependents are notified and updated automatically.
 - **Main Points**:
-  - Useful for creating a subscription mechanism where multiple observers need to be notified of changes.
-  - Ensures that observers are updated automatically without having to poll or manually check.
-  - Reduces tight coupling between the subject and its observers.
+  - Allows to change or take action on set of objects when the state of another object changes.
+  - This can be done even if the modifiable set of objects are unknown before handling changes dynamically.
+  - You can introduce new subscriber classes without having to change the publisher code ,and vice versa if there is publisher interface.
+  - Primarily deals with interaction and communication between objects, specifically focuses on how objects behave in response to changes in state of another object. 
 - **Components**:
   - Subject
   - Concrete Subject
@@ -264,10 +261,9 @@ By using design patterns, you can make your code more flexible, reusable, and ea
 #### State Pattern
 - **Explanation**: Allows an object to alter its behavior when its internal state changes. The object will appear to change its class.
 - **Main Points**:
-  - Useful when an object should change its behavior based on its state.
-  - Encapsulates state-specific behavior in separate state classes.
-  - Makes it easy to add new states without modifying existing code.
-  - State transitions are managed by the context object.
+ - Extract each logic to separate class and let the context delegate the behavior to the corresponding state class
+ - Applies single responsibility and open-closed principle where each state is organized in separate class and we can introduce new states.
+ - Focuses on managing state transitions and coordinating state-specific behavior.
 - **Components**:
   - Context
   - State Interface
@@ -281,10 +277,10 @@ By using design patterns, you can make your code more flexible, reusable, and ea
 #### Strategy Pattern
 - **Explanation**: Defines a family of algorithms, encapsulates each one, and makes them interchangeable. Strategy lets the algorithm vary independently from clients that use it.
 - **Main Points**:
-  - Useful when you need to switch between different algorithms or strategies dynamically.
-  - Allows algorithm changes without affecting the client code.
-  - Encourages separation of concerns and promotes clean code principles.
-  - Strategy objects can be created dynamically or injected at runtime.
+  - Strategies are easily replaceable and interchangeable by clients at runtime.
+  - Applies single responsibility and open-closed principles, where each strategy is isolated in separate class, and we can easily add new ones.
+  - One of the gang of four(GOF).
+  - Promotes object collaboration.
 - **Components**:
   - Context
   - Strategy Interface
@@ -295,12 +291,20 @@ By using design patterns, you can make your code more flexible, reusable, and ea
   <br>
   <img src="https://github.com/zeyadsalah22/Design-Patterns/blob/main/images/behavioral/strategy.png" width="400"/>
 
+#### State vs Strategy Patterns
+
+| State Pattern                                                             | Strategy Pattern                                                       |
+|---------------------------------------------------------------------------|------------------------------------------------------------------------|
+| States can be dependant as you can easily jump from one state to another. | Strategies are completely independent and unaware of each other.       |
+| About doing different things based on the state, hence result may vary.   | About having different implementations that accomplish the same thing. |
+
 #### Template Method Pattern
 - **Explanation**: Defines the skeleton of an algorithm in a method, deferring some steps to subclasses. Template Method lets subclasses redefine certain steps of an algorithm without changing the algorithm’s structure.
 - **Main Points**:
-  - Provides a way to define a common algorithm structure with customizable steps.
-  - Ensures that the overall algorithm structure remains consistent while allowing individual steps to vary.
-  - Useful for code reuse and defining invariant parts of an algorithm.
+  - Turns an algorithm into a series of individual methods.
+  - Keep the structure of your base algorithm intact.
+  - Eliminates code duplication by pulling up the steps with same implementations into the superclass housing the template method.
+  - The code that varies is split between different implementations.
 - **Components**:
   - Abstract Class
   - Concrete Class
@@ -313,9 +317,10 @@ By using design patterns, you can make your code more flexible, reusable, and ea
 #### Visitor Pattern
 - **Explanation**: Lets you separate algorithms from the objects on which they operate. By using the Visitor Pattern, you can add new operations to existing object structures without modifying those structures.
 - **Main Points**:
-  - Useful when you need to perform operations on a set of objects with different types.
-  - Allows you to add new operations without modifying the objects’ classes.
-  - Each object accepts a visitor object and provides an appropriate method for it.
+  - Isolates particular behaviors from the objects on which they operate, and places them in a single class.
+  - Classes will be more focused on their main job hence enforcing single responsibility principle.
+  - Applies open-closed principle as new visiting behaviors can be easily introduced without modifying the existing ones.
+  - Visitors are easily interchangeable by clients at runtime.
 - **Components**:
   - Visitor Interface
   - Concrete Visitor
@@ -333,9 +338,9 @@ By using design patterns, you can make your code more flexible, reusable, and ea
 #### Adapter Pattern
 - **Explanation**: Converts the interface of a class into another interface clients expect. Adapter lets classes work together that couldn’t otherwise because of incompatible interfaces.
 - **Main Points**:
-  - Useful when integrating with legacy code or third-party libraries.
-  - Provides a way to use existing classes with a new interface.
-  - Adapts the interface of a class to match the expected interface.
+  - Uses inheritance and composition to enable objects with incompatible interfaces collaborate with one another.
+  - Creates middle layer class that serves as translator.
+  - Applies Single Responsibility and Open-Closed principles, adapting behavior is separated, we can introduce new adapters without breaking existing code.
 - **Components**:
   - Target
   - Adapter
@@ -349,9 +354,11 @@ By using design patterns, you can make your code more flexible, reusable, and ea
 #### Bridge Pattern
 - **Explanation**: Decouples an abstraction from its implementation so that the two can vary independently. The Bridge Pattern allows you to change the implementation without changing the abstraction.
 - **Main Points**:
-  - Useful when you need to extend both abstractions and implementations independently.
-  - Separates the interface from its implementation.
-  - Allows new implementations to be added without modifying existing abstractions.
+  - The two hierarchies are: Abstraction, Implementation.
+ - Abstraction is a high-level control layer, it delegates the work to implementation layer( They are different from interfaces and abstract classes).
+ - Composition over inheritance.
+ - Client code won't be exposed to implementation details.
+ - Applies Single Responsibility and Open-Closed principles, independently introduce new abstractions and implementations.
 - **Components**:
   - Abstraction
   - Refined Abstraction
@@ -366,9 +373,9 @@ By using design patterns, you can make your code more flexible, reusable, and ea
 #### Composite Pattern
 - **Explanation**: Composes objects into tree structures to represent part-whole hierarchies. Composite Pattern lets clients treat individual objects and compositions of objects uniformly.
 - **Main Points**:
-  - Useful when you need to represent part-whole hierarchies.
-  - Allows you to treat individual objects and compositions of objects uniformly.
-  - Simplifies client code by using a common interface.
+  - All elements share the same interface allowing client to treat individual objects and compositions uniformly.
+  - Help you create a tree-like object structure using simple and complex objects.
+  - Applies open-closed principle, you can introduce new element types in the application without breaking the existing code.
 - **Components**:
   - Component
   - Leaf
@@ -382,9 +389,9 @@ By using design patterns, you can make your code more flexible, reusable, and ea
 #### Decorator Pattern
 - **Explanation**: Adds behavior to objects dynamically by placing them inside special wrapper objects that contain the behaviors.
 - **Main Points**:
-  - Useful when you need to add responsibilities to objects dynamically and transparently.
-  - Allows you to extend the functionality of objects without altering their structure.
-  - Decorators can be stacked to combine functionalities.
+  - Wraps an existing object, allowing to add new functionality dynamically to that object without altering its structure.
+    - Assign extra behaviors to your object at runtime without breaking the code that use it.
+    - Applies Single Responsibility and Open-Closed principles, each behavior is isolated in separate class, you can introduce new decorators without modifying existing classes.
 - **Components**:
   - Component
   - Concrete Component
@@ -399,9 +406,11 @@ By using design patterns, you can make your code more flexible, reusable, and ea
 #### Facade Pattern
 - **Explanation**: Provides a unified interface to a set of interfaces in a subsystem. The Facade Pattern defines a higher-level interface that makes the subsystem easier to use.
 - **Main Points**:
-  - Useful when you need to provide a simplified interface to a complex subsystem.
-  - Hides the complexities of the subsystem and provides a clean interface.
-  - Facilitates usage by reducing the number of interactions with the subsystem.
+  - A class that serves as a front-facing interface that masks complex underlying structural code.
+  - Improves readability and usability of a software library by hiding the interaction with its components.
+  - Applies Single Responsibility principle by defining entry points to each level of a subsystem thus decoupling multiple subsystems and forcing them to communicate only through facades.
+  - Part of Gang of Four(GOF).
+  - You can add additional facades to avoid growing a facade.
 - **Components**:
   - Facade
   - Subsystems
@@ -414,9 +423,10 @@ By using design patterns, you can make your code more flexible, reusable, and ea
 #### Flyweight Pattern
 - **Explanation**: Uses sharing to support large numbers of fine-grained objects efficiently. The Flyweight Pattern reduces the memory footprint of objects.
 - **Main Points**:
-  - Useful when you need to manage a large number of objects that share common state.
-  - Stores intrinsic state shared across multiple objects and extrinsic state that varies between objects.
-  - Reduces the number of objects created by sharing common parts.
+  - For memory optimization.
+  - Refers to an object that minimizes memory usage by sharing some of the initial object's data with other similar objects.
+  - Should only be used when a program must support a huge number of similar objects which barely fit into the available amount of RAM.
+  - Splits state if the initial object into two intrinsic immutable state and extrinsic mutable state.
 - **Components**:
   - Flyweight
   - Concrete Flyweight
@@ -430,12 +440,11 @@ By using design patterns, you can make your code more flexible, reusable, and ea
 #### Proxy Pattern
 - **Explanation**: Provides a surrogate or placeholder for another object to control access to it. The Proxy Pattern allows you to control access, create, and manage an object indirectly.
 - **Main Points**:
-  - Useful when you need to control access to an object or add additional functionality without modifying the object itself.
-  - Types of proxies:
-    - Virtual Proxy
-    - Protection Proxy
-    - Remote Proxy
-  - Implements different proxy types to add control layers.
+  - Allows to control access to a particular object by performing something before or after the request reaches that object.
+  - The proxy must implement the same interface of the original object.
+  - Manages the life cycle of the service object, and the proxy will work even if the service object isn't ready or available.
+  - Applies open-closed principle, as you can introduce new proxies without changing the service nor the clients.
+  - Chaining of proxies means connecting them in a sequence, where each proxy adds its own behavior before passing the request to the next proxy.
 - **Components**:
   - Subject
   - Proxy
